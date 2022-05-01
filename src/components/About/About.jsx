@@ -1,10 +1,9 @@
 import './About.css';
 import imageDev from '../../Assets/img/dev.png'
-import { getAbout } from '../../Assets/scripts/About';
 
 function About() {
     return (
-        <div className="About" id='About' onLoad={getAbout}>
+        <div className="About" id='About'>
             <div className="span">
                 <h1>About Me</h1>
                 <span>

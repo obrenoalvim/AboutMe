@@ -1,56 +1,33 @@
 .About {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #13293d;
+    background: linear-gradient(90deg, rgba(19, 41, 61, 1) 30%, rgba(18, 18, 18, 1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-
-    width: 100%;
-    height: 100%;
-    min-height: 95vh;
-    margin-top: 10vh;
-    gap: 15px;
-}
-
-.About .span,
-.About .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
     flex-wrap: wrap;
-    width: 48%;
-    margin: 15px;
-    height: 100%;
+    margin: 0 auto;
 }
 
-.About .span span {
-    font-size: 1.4em;
-    text-align: justify;
+.prev {
+    position: fixed;
+    left: 10%;
+    top: 90%;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5ae4a8;
+    border: none;
+    transition: 0.5s all;
 }
 
-.About .image img {
-    /* min-width: 375px; */
-    width: 80%;
-}
-
-@media (max-width: 768px) {
-
-    .About {
-        flex-wrap: wrap;
-    }
-
-    .About .span,
-    .About .image {
-        width: 100%;
-        margin: 15px;
-    }
-
-    .About .image {
-        width: 100%;
-    }
-
-    .About .span span {
-        font-size: 1.2em;
-        text-align: justify;
-    }
+.prev:hover {
+    transition: 0.5s all;
+    color: #5ae4a8;
+    background-color: #13293d;
+    box-shadow: 0 0 10px #5ae4a8;
+    /* border: 1px solid #5ae4a8; */
 }

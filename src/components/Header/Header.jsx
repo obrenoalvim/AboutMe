@@ -2,6 +2,9 @@ import './Header.css';
 import LogoDev from '../../Assets/img/dev.png';
 
 function Header() {
+    function redirect() {
+        window.location.href = '/About';
+    }
     return (
         <>
             <div className="Header">
@@ -20,7 +23,7 @@ function Header() {
                 <div className="image">
                     <img src={LogoDev} alt="" />
                 </div>
-                <button className="next">
+                <button className="next" onClick={redirect}>
                     <i class="fa-solid fa-angle-right"></i>
                 </button>
             </div>

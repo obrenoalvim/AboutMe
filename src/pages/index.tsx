@@ -6,6 +6,8 @@ import Title from "../components/Head/Title";
 
 import Header from "../components/Header/index";
 
+import { Root } from "./styles";
+
 export default function Home() {
   return (
     <>
@@ -16,16 +18,16 @@ export default function Home() {
       <h1></h1>
       <style>
         {`
-        body{
+        body {
           margin: 0;
           padding: 0;
         }
         :root {
-          --brand-color: #152D73;
-          --dark-color: #0F172A;
-          --mid-color: #CBD5E1;
-          --light-color: #F8FAFC;
-            }
+          --brand-color: #152d73;
+          --dark-color: #0f172a;
+          --mid-color: #cbd5e1;
+          --light-color: #f8fafc;
+        }
         `}
       </style>
     </>

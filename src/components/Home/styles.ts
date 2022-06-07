@@ -29,27 +29,27 @@ export const HomepagePattern = styled.div`
     text-align: left;
   }
 
+  .span p,
+  .span span,
+  .span img,
+  .span button {
+    padding-left: 250px;
+  }
+
   .span p {
     font-size: 1.4rem;
     color: var(--mid-color);
     font-family: "inter", sans-serif;
-    padding-left: 250px;
   }
 
   .span span {
     font-size: 3.5rem;
     color: var(--light-color);
     font-family: "inter", sans-serif;
-    padding-left: 250px;
   }
 
   .span img {
     width: 375px;
-    padding-left: 250px;
-  }
-
-  .span button {
-    margin-left: 250px;
   }
 
   .hr {
@@ -61,6 +61,33 @@ export const HomepagePattern = styled.div`
   .image img {
     width: 60%;
     height: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    .span p,
+    .span span,
+    .span img,
+    .span button {
+      padding-left: 150px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .span p,
+    .span span,
+    .span img,
+    .span button {
+      padding-left: 100px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .span p,
+    .span span,
+    .span img,
+    .span button {
+      padding-left: 50px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -92,9 +119,4 @@ export const HomepagePattern = styled.div`
       width: 370px;
     }
   }
-
-  
-
-
-  
 `;

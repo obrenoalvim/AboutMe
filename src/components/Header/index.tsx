@@ -5,50 +5,35 @@ interface HeaderProps {
 }
 
 export default function Header(props: HeaderProps) {
-  const hamburger = document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
-
-  hamburger.addEventListener("click", mobileMenu);
-
-  function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-  }
-
   return (
     <HeaderNav>
-      <header className="header">
-        <nav className="navbar">
-          <a href="#" className="nav-logo">
-            {props.name}
-          </a>
-          <ul className="nav-menu">
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                Home
-              </a>
+      <header>
+        <nav>
+          <input id="nav-toggle" type="checkbox" />
+          <div className="logo span-logo">
+            <span>
+              {props.name}
+              </span>
+          </div>
+          <ul className="links">
+            <li>
+              <a href="#">Home</a>
             </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                Skills
-              </a>
+            <li>
+              <a href="#">About</a>
             </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                Work
-              </a>
+            <li>
+              <a href="#">Skills</a>
             </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                CV
-              </a>
+            <li>
+              <a href="#">Work</a>
             </li>
           </ul>
-          <div className="hamburger">
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div>
+          <label htmlFor="nav-toggle" className="icon-burger">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </label>
         </nav>
       </header>
     </HeaderNav>

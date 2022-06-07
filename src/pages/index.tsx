@@ -14,7 +14,7 @@ export default function Home() {
       <Meta></Meta>
       <Link />
       <Title name="About Me" />
-      <Header name="</>" />
+      <Header name="<Breno.dev/>" />
       <h1></h1>
       <style>
         {`

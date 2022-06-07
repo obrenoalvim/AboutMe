@@ -48,6 +48,10 @@ export const HomepagePattern = styled.div`
     padding-left: 250px;
   }
 
+  .span button {
+    margin-left: 250px;
+  }
+
   .hr {
     width: 100%;
     height: 1px;
@@ -84,8 +88,13 @@ export const HomepagePattern = styled.div`
       padding-left: 30px;
     }
 
-    .image img{
-        width: 370px;
+    .image img {
+      width: 370px;
     }
   }
+
+  
+
+
+  
 `;

@@ -17,7 +17,7 @@ export const HeaderNav = styled.div`
     top: 0;
     font-family: "Montserrat", sans-serif;
     padding: 0 5%;
-    height: 100px;
+    height: 11.7vh;
     background-color: var(--brand-color);
   }
   nav .logo {

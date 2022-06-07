@@ -6,7 +6,7 @@ import Title from "../components/Head/Title";
 
 import Header from "../components/Header/index";
 
-import { Root } from "./styles";
+import Homepage from "../components/Home/index";
 
 export default function Home() {
   return (
@@ -14,7 +14,8 @@ export default function Home() {
       <Meta></Meta>
       <Link />
       <Title name="About Me" />
-      <Header name="<Breno.dev/>" />
+      <Header name="< breno.dev/>" />
+      <Homepage name="Home" />
       <h1></h1>
       <style>
         {`

@@ -6,7 +6,7 @@ export const Social = styled.div`
     font-family: 'Fira Code', monospace;
   }
   a {
-    color: #fff;
+    color: #0f172a;
     text-decoration: none;
   }
   .me {
@@ -50,21 +50,21 @@ export const Social = styled.div`
     color: #000;
   }
   .social ul li:hover i {
-    color: #fff;
+    color: #f8fafc;
     background: rgba(0, 0, 0, 0.36);
     transform: rotate(360deg);
     transition: all 1s;
   }
   .social ul li i {
     margin-left: 10px;
-    color: #000;
-    background: #fff;
+    color: #0f172a;
+    background: #f8fafc;
     padding: 10px;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     font-size: 20px;
-    background: #ffffff;
+    background: #f8fafc;
     transform: rotate(0deg);
   }
 

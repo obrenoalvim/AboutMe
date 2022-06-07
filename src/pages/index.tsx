@@ -8,6 +8,8 @@ import Header from "../components/Header/index";
 
 import Homepage from "../components/Home/index";
 
+import Social from "../components/Social/index";
+
 export default function Home() {
   return (
     <>
@@ -16,6 +18,7 @@ export default function Home() {
       <Title name="About Me" />
       <Header name="</>" />
       <Homepage name="Home" path_img="img/login.png" />
+      <Social name="Breno"/>
       <h1></h1>
       <style>
         {`

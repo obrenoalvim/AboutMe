@@ -14,8 +14,8 @@ export default function Home() {
       <Meta></Meta>
       <Link />
       <Title name="About Me" />
-      <Header name="< breno.dev/>" />
-      <Homepage name="Home" />
+      <Header name="</>" />
+      <Homepage name="Home" path_img="img/login.png" />
       <h1></h1>
       <style>
         {`

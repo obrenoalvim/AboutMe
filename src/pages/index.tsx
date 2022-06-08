@@ -19,8 +19,7 @@ export default function Home() {
       <Header name="</>" />
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno"/>
-      <h1></h1>
-      <style>
+      {/* <style>
         {`
         body {
           margin: 0;
@@ -33,7 +32,7 @@ export default function Home() {
           --light-color: #f8fafc;
         }
         `}
-      </style>
+      </style> */}
     </>
   );
 }

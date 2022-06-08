@@ -1,4 +1,4 @@
-import "./global.css";
+import Global from "./global";
 
 import Meta from "../components/Head/Meta";
 
@@ -15,7 +15,8 @@ import Social from "../components/Social/index";
 export default function Home() {
   return (
     <>
-      <Meta></Meta>
+      <Global />
+      <Meta />
       <Link />
       <Title name="About Me" />
       <Header name="</>" />

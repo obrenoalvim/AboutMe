@@ -4,7 +4,7 @@ export default function Meta() {
   return (
     <>
       <Head>
-        <meta http-equiv="content-language" content="pt-br" />
+        <meta content="pt-br" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 

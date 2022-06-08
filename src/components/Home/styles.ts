@@ -37,13 +37,13 @@ export const HomepagePattern = styled.div`
   }
 
   .span p {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: var(--mid-color);
     font-family: "inter", sans-serif;
   }
 
   .span span {
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     color: var(--light-color);
     font-family: "inter", sans-serif;
   }
@@ -112,7 +112,7 @@ export const HomepagePattern = styled.div`
 
     .span img {
       width: 200px;
-      padding-left: 30px;
+      padding-right: 82px;
     }
 
     .image img {

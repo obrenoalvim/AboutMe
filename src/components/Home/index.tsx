@@ -10,7 +10,7 @@ export default function Homepage(props: HomepageProps) {
     <HomepagePattern>
       <div className="span" id="Home">
         <p>
-          <strong>I'm</strong>
+          <strong> I'm</strong>
         </p>
         <div className="hr"></div>
         <span>
@@ -18,11 +18,10 @@ export default function Homepage(props: HomepageProps) {
         </span>
         <div className="hr"></div>
         <img
-          src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=3000&color=f8fafc&width=375&height=60&lines=Web+Developer;Designer;Analyst;Full-Stack+Developer;Software+Engineer`}
+          src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=3000&color=F8FAFC&width=375&height=80&lines=Web+Developer;Designer;Analyst;Full-Stack+Developer;Software+Engineer`}
           alt=""
         />
         <div className="hr"></div>
-        
       </div>
       <div className="image">
         <img src={props.path_img} alt="" />

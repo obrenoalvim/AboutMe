@@ -24,11 +24,14 @@ export default function Home() {
       <About name="Breno" />
       <style jsx global>
         {`
+          * {
+            scroll-behavior: smooth;
+          }
           body {
             margin: 0;
             padding: 0;
           }
-          *:root {
+          :root {
             --brand-color: #152d73;
             --dark-color: #0f172a;
             --mid-color: #cbd5e1;

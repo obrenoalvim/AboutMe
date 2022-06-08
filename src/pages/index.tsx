@@ -36,6 +36,7 @@ export default function Home() {
             --dark-color: #152d73;
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
+            --pattern-font: 'Inter', sans-serif;
           }
         `}
       </style>

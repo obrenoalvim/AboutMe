@@ -1,5 +1,3 @@
-import Global from "./global";
-
 import Meta from "../components/Head/Meta";
 
 import Link from "../components/Head/Link";
@@ -15,7 +13,6 @@ import Social from "../components/Social/index";
 export default function Home() {
   return (
     <>
-      <Global />
       <Meta />
       <Link />
       <Title name="About Me" />
@@ -24,6 +21,10 @@ export default function Home() {
       <Social name="Breno" />
       <style jsx global>
         {`
+          body {
+            margin: 0;
+            padding: 0;
+          }
           *:root {
             --brand-color: #152d73;
             --dark-color: #0f172a;

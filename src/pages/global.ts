@@ -6,7 +6,7 @@ export default createGlobalStyle`
       margin: 0;
       padding: 0; 
     }
-  body:root {
+  *:root {
     --brand-color: #152d73;
     --dark-color: #0f172a;
     --mid-color: #cbd5e1;

@@ -29,10 +29,29 @@ export const HomepagePattern = styled.div`
     text-align: left;
   }
 
+  .span button {
+    margin-left: 250px;
+    background-color: #5ae4a8;
+    border: 0px;
+    border-radius: 5px;
+    color: var(--dark-color);
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    transition: 0.5s all;
+  }
+
+  .span button:hover {
+    transition: 0.5s all;
+    background-color: var(--dark-color);
+    color: #5ae4a8;
+    box-shadow: 0px 0px 10px #5ae4a8;
+  }
+
   .span p,
   .span span,
-  .span img,
-  .span button {
+  .span img {
     padding-left: 250px;
   }
 
@@ -66,8 +85,7 @@ export const HomepagePattern = styled.div`
   @media (max-width: 1200px) {
     .span p,
     .span span,
-    .span img,
-    .span button {
+    .span img {
       padding-left: 150px;
     }
   }

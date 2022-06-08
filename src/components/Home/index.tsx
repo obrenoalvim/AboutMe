@@ -16,12 +16,18 @@ export default function Homepage(props: HomepageProps) {
         <span>
           <strong>Breno Alvim</strong>
         </span>
+
         <div className="hr"></div>
         <img
-          src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=3000&color=F8FAFC&width=375&height=80&lines=Web+Developer;Designer;Analyst;Full-Stack+Developer;Software+Engineer`}
+          src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=3000&color=cbd5e1&width=375&height=60&lines=Web+Developer;Designer;Analyst;Full-Stack+Developer;Software+Engineer`}
           alt=""
         />
         <div className="hr"></div>
+        <p>I create much more than bugs :{`)`}</p>
+        <div className="hr"></div>
+        <a href="#Work">
+          <button>My Work</button>
+        </a>
       </div>
       <div className="image">
         <img src={props.path_img} alt="" />

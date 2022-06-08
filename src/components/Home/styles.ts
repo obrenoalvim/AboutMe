@@ -38,7 +38,7 @@ export const HomepagePattern = styled.div`
     background-color: #5ae4a8;
     border: 0px;
     border-radius: 5px;
-    color: var(--dark-color);
+    color: var(--brand-color);
     font-weight: bold;
     width: 100px;
     height: 40px;
@@ -48,7 +48,7 @@ export const HomepagePattern = styled.div`
 
   .span button:hover {
     transition: 0.5s all;
-    background-color: var(--dark-color);
+    background-color: var(--brand-color);
     color: #5ae4a8;
     box-shadow: 0px 0px 10px #5ae4a8;
   }

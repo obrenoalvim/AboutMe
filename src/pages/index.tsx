@@ -32,12 +32,11 @@ export default function Home() {
             padding: 0;
           }
           :root {
-            --brand-color: #152d73;
-            --dark-color: #0f172a;
+            --brand-color: #0f172a;
+            --dark-color: #152d73;
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
           }
-         
         `}
       </style>
     </>

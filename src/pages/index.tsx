@@ -1,16 +1,20 @@
-import Meta from "../components/Head/Meta";
+import Meta from '../components/Head/Meta'
 
-import Link from "../components/Head/Link";
+import Link from '../components/Head/Link'
 
-import Title from "../components/Head/Title";
+import Title from '../components/Head/Title'
 
-import Header from "../components/Header/index";
+import Header from '../components/Header/index'
 
-import Homepage from "../components/Home/index";
+import Homepage from '../components/Home/index'
 
-import Social from "../components/Social/index";
+import Social from '../components/Social/index'
 
-import About from "../components/About/index";
+import About from '../components/About/index'
+
+import Skills from '../components/Skills/index'
+
+import Work from '../components/Work/index'
 
 export default function Home() {
   return (
@@ -22,6 +26,8 @@ export default function Home() {
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno" />
       <About name="Breno" />
+      <Skills name="Breno" />
+      <Work name="Breno" />
       <style jsx global>
         {`
           * {
@@ -41,5 +47,5 @@ export default function Home() {
         `}
       </style>
     </>
-  );
+  )
 }

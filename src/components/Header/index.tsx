@@ -1,4 +1,4 @@
-import { HeaderNav } from "./styles";
+import { HeaderNav } from './styles'
 
 export default function Header() {
   return (
@@ -17,10 +17,10 @@ export default function Header() {
               <a href="#About">About</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#Skills">Skills</a>
             </li>
             <li>
-              <a href="#">Work</a>
+              <a href="#Work">Work</a>
             </li>
           </ul>
           <label htmlFor="nav-toggle" className="icon-burger">
@@ -31,5 +31,5 @@ export default function Header() {
         </nav>
       </header>
     </HeaderNav>
-  );
+  )
 }

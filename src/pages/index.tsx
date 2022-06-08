@@ -18,7 +18,7 @@ export default function Home() {
       <Meta />
       <Link />
       <Title name="About Me" />
-      <Header name="</>" />
+      <Header />
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno" />
       <About name="Breno" />
@@ -37,6 +37,7 @@ export default function Home() {
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
           }
+         
         `}
       </style>
     </>

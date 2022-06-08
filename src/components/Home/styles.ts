@@ -29,6 +29,10 @@ export const HomepagePattern = styled.div`
     text-align: left;
   }
 
+  .color {
+    color: #5ae4a8;
+  }
+
   .span button {
     margin-left: 250px;
     background-color: #5ae4a8;

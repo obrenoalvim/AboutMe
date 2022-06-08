@@ -1,17 +1,13 @@
 import { HeaderNav } from "./styles";
 
-interface HeaderProps {
-  name: string;
-}
-
-export default function Header(props: HeaderProps) {
+export default function Header() {
   return (
     <HeaderNav>
       <header>
         <nav>
           <input id="nav-toggle" type="checkbox" />
           <div className="logo span-logo">
-            <span>{props.name}</span>
+            <span>{`<breno.dev/>`}</span>
           </div>
           <ul className="links">
             <li>

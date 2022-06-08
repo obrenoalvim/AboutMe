@@ -14,7 +14,9 @@ export default function Homepage(props: HomepageProps) {
         </p>
         <div className="hr"></div>
         <span>
-          <strong>Breno Alvim</strong>
+          <strong>
+            Breno Alvim
+          </strong>
         </span>
 
         <div className="hr"></div>

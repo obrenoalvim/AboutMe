@@ -22,6 +22,16 @@ export default function Home() {
       <Header name="</>" />
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno" />
+      <style jsx global>
+        {`
+          *:root {
+            --brand-color: #152d73;
+            --dark-color: #0f172a;
+            --mid-color: #cbd5e1;
+            --light-color: #f8fafc;
+          }
+        `}
+      </style>
     </>
   );
 }

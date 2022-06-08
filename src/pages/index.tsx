@@ -10,6 +10,8 @@ import Homepage from "../components/Home/index";
 
 import Social from "../components/Social/index";
 
+import About from "../components/About/index";
+
 export default function Home() {
   return (
     <>
@@ -19,6 +21,7 @@ export default function Home() {
       <Header name="</>" />
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno" />
+      <About name="Breno" />
       <style jsx global>
         {`
           body {

@@ -11,16 +11,14 @@ export default function Header(props: HeaderProps) {
         <nav>
           <input id="nav-toggle" type="checkbox" />
           <div className="logo span-logo">
-            <span>
-              {props.name}
-              </span>
+            <span>{props.name}</span>
           </div>
           <ul className="links">
             <li>
-              <a href="#">Home</a>
+              <a href="#Home">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#About">About</a>
             </li>
             <li>
               <a href="#">Skills</a>

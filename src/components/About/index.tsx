@@ -9,7 +9,10 @@ export default function Aboutme(props: AboutmeProps) {
     <AboutmeContainer>
       <div className="span">
         <div className="title">
-          <span>About</span>
+          <span>
+            About
+            <div className="underline"></div>
+          </span>
         </div>
         <p>
           I am a Full-Stack Web Developer, working professionally in the field

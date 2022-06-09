@@ -12,6 +12,12 @@ export const AboutmeContainer = styled.div`
   background-color: var(--brand-color);
   padding-top: 11.3vh;
 
+  .underline {
+    width: 100%;
+    height: 6px;
+    background-color: var(--green-color);
+  }
+
   .span,
   .avatar {
     display: flex;

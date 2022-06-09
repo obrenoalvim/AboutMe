@@ -28,6 +28,7 @@ export default function Home() {
       <Social name="Breno" />
       <div className="hr" id="About" />
       <About name="Breno" />
+      <div className="hr" id="Skills" />
       <Skills name="Breno" />
       <Work name="Breno" />
       <style jsx global>
@@ -45,6 +46,7 @@ export default function Home() {
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
             --green-color: #5ae4a8;
+            --grey-color: #4E4E55;
             --pattern-font: 'Inter', sans-serif;
           }
         `}

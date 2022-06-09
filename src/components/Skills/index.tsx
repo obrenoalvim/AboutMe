@@ -49,7 +49,7 @@ export default function Skills(props: SkillsProps) {
           </li>
           <li>
             <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+              src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
               title="NextJS"
               alt="Logo NextJS"
             />
@@ -169,7 +169,7 @@ export default function Skills(props: SkillsProps) {
           </li>
           <li>
             <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg"
+              src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png"
               title="Adobe Photoshop"
               alt="Logo Adobe Photoshop"
             />
@@ -177,7 +177,7 @@ export default function Skills(props: SkillsProps) {
           </li>
           <li>
             <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored-dark.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png"
               title="Adobe Illustrator"
               alt="Logo Adobe Illustrator"
             />

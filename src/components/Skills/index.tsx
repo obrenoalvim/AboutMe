@@ -150,9 +150,11 @@ export default function Skills(props: SkillsProps) {
           </li>
         </ol>
       </div>
-      {/* <div className="button">
-        <button>My Work</button>
-      </div> */}
+      <div className="button">
+        <a href="#Work">
+          <button>My Work</button>
+        </a>
+      </div>
     </SkillsContainer>
   )
 }

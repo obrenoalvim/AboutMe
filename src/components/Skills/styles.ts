@@ -67,4 +67,31 @@ export const SkillsContainer = styled.div`
     font-weight: bold;
     padding-top: 15px;
   }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .button button {
+    background-color: #5ae4a8;
+    border: 0px;
+    border-radius: 5px;
+    color: var(--brand-color);
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    transition: 0.5s all;
+  }
+
+  .button button:hover {
+    transition: 0.5s all;
+    background-color: var(--brand-color);
+    color: #5ae4a8;
+    box-shadow: 0px 0px 10px #5ae4a8;
+  }
 `

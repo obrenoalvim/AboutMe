@@ -12,12 +12,16 @@ export default function Aboutme(props: AboutmeProps) {
           <span>About</span>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          fugit eligendi explicabo numquam quidem animi dignissimos cum eum
-          dolorum sit voluptas doloribus, ullam similique eaque inventore
-          fugiat. Eveniet, facilis quos.
+          I am a Full-Stack Web Developer, working professionally in the field
+          since March 2021. I enjoy generating new ideas and developing viable
+          solutions to widely relevant problems. Throughout my career I went
+          through several challenges that made me progress and learn quickly, so
+          I always try to pass my knowledge on, teaching as many people as
+          possible!
         </p>
-        <button>My Skills</button>
+        <a href="#Skills">
+          <button>My Skills</button>
+        </a>
       </div>
       <div className="avatar">
         <img src="https://avatars.githubusercontent.com/u/39434668?v=4" />

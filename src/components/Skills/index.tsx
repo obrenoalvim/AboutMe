@@ -18,133 +18,152 @@ export default function Skills(props: SkillsProps) {
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
-              alt=""
+              title="JavaScript"
+              alt="Logo JavaScript"
             />
             <span className="title">JavaScript</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
-              alt=""
+              title="TypeScript"
+              alt="Logo TypeScript"
             />
             <span className="title">TypeScript</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
-              alt=""
+              title="HTML5"
+              alt="Logo HTML5"
             />
             <span className="title">HTML5</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
-              alt=""
+              title="CSS3"
+              alt="Logo CSS3"
             />
             <span className="title">CSS3</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
-              alt=""
+              title="NextJS"
+              alt="Logo NextJS"
             />
             <span className="title">Next</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
-              alt=""
+              title="ReactJS"
+              alt="Logo ReactJS"
             />
             <span className="title">React</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
-              alt=""
+              title="VueJS"
+              alt="Logo VueJS"
             />
             <span className="title">Vue</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
-              alt=""
+              title="SASS"
+              alt="Logo SASS"
             />
             <span className="title">SASS</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
-              alt=""
+              title="TailwindCSS"
+              alt="Logo TailwindCSS"
             />
             <span className="title">Tailwind</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-              alt=""
+              title="BootStrap"
+              alt="Logo BootStrap"
             />
             <span className="title">BootStrap</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
-              alt=""
+              title="PHP"
+              alt="Logo PHP"
             />
             <span className="title">PHP</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"
-              alt=""
+              title="Laravel"
+              alt="Logo Laravel"
             />
             <span className="title">Laravel</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
-              alt=""
+              title="MySql"
+              alt="Logo MySql"
             />
             <span className="title">MySql</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
-              alt=""
+              title="MongoDB"
+              alt="Logo MongoDB"
             />
             <span className="title">MongoDB</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-              alt=""
+              title="Python"
+              alt="Logo Python"
             />
             <span className="title">Python</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
-              alt=""
+              title="NodeJS"
+              alt="Logo NodeJS"
             />
             <span className="title">Node</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg"
-              alt=""
+              title="Adobe Photoshop"
+              alt="Logo Adobe Photoshop"
             />
             <span className="title">Photoshop</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored-dark.svg"
-              alt=""
+              title="Adobe Illustrator"
+              alt="Logo Adobe Illustrator"
             />
             <span className="title">Illustrator</span>
           </li>
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
-              alt=""
+              title="Figma"
+              alt="Logo Figma"
             />
             <span className="title">Figma</span>
           </li>

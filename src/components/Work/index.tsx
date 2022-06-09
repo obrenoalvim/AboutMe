@@ -17,7 +17,10 @@ export default function Work(props: WorkProps) {
       <div className="projects">
         <div className="card">
           <div className="image">
-            {/* <img src={`https://www.danielcranney.com/_next/image?url=%2Fprojects%2Freportr.png&w=1920&q=75`} alt="" /> */}
+            <img
+              src={`https://www.danielcranney.com/_next/image?url=%2Fprojects%2Freportr.png&w=1920&q=75`}
+              alt=""
+            />
           </div>
           <div className="span">
             <div className="title">

@@ -41,25 +41,36 @@ export const WorkContainer = styled.div`
 
   .projects .card {
     width: 80%;
-    height: 450px;
+    min-width: 375px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #282833;
     border-radius: 15px;
-    gap: 15px;
+    /* gap: 15px; */
   }
 
   .card .image {
     width: 47%;
     height: 85%;
+    min-width: 375px;
+    min-height: 375px;
     border: 1px solid red;
+    border-radius: 10px;
+    margin: 15px;
+  }
+
+  .card .image img {
+    width: 100%;
     border-radius: 10px;
   }
 
   .card .span {
     width: 47%;
     height: 85%;
+    min-width: 375px;
     border: 1px solid red;
   }
 

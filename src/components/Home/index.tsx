@@ -23,7 +23,7 @@ export default function Homepage(props: HomepageProps) {
           alt=""
         />
         <div className="hr"></div>
-        <p>Hello, Word! Know some of my history!</p>
+        <p>Hello, World! Know some of my history!</p>
         <div className="hr"></div>
         <a href="#About">
           <button>About Me</button>

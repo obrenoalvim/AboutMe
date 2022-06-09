@@ -9,7 +9,7 @@ export default function Skills(props: SkillsProps) {
     <SkillsContainer>
       <div className="title">
         <span>
-          Skills
+          My Skills
           <div className="underline"></div>
         </span>
       </div>

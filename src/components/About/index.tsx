@@ -10,7 +10,7 @@ export default function Aboutme(props: AboutmeProps) {
       <div className="span">
         <div className="title">
           <span>
-            About
+            About Me
             <div className="underline"></div>
           </span>
         </div>

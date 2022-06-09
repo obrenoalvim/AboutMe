@@ -7,7 +7,10 @@ export default function Header() {
         <nav>
           <input id="nav-toggle" type="checkbox" />
           <div className="logo span-logo">
-            <span>{`<breno.dev/>`}</span>
+            <span>
+              {`<`}breno.<strong>dev</strong>
+              {`/>`}
+            </span>
           </div>
           <ul className="links">
             <li>

@@ -23,8 +23,10 @@ export default function Home() {
       <Link />
       <Title name="About Me" />
       <Header />
+      <div className="hr" id="Home" />
       <Homepage name="Home" path_img="img/login.png" />
       <Social name="Breno" />
+      <div className="hr" id="About" />
       <About name="Breno" />
       <Skills name="Breno" />
       <Work name="Breno" />
@@ -42,6 +44,7 @@ export default function Home() {
             --dark-color: #152d73;
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
+            --green-color: #5ae4a8;
             --pattern-font: 'Inter', sans-serif;
           }
         `}

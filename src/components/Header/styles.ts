@@ -19,7 +19,7 @@ export const HeaderNav = styled.div`
     padding: 0 5%;
     height: 11.7vh;
     background-color: var(--brand-color);
-    border-bottom: 1px solid var(--light-color);
+    /* border-bottom: 1px solid var(--light-color); */
   }
   nav .logo {
     float: left;

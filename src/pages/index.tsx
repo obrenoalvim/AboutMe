@@ -30,6 +30,7 @@ export default function Home() {
       <About name="Breno" />
       <div className="hr" id="Skills" />
       <Skills name="Breno" />
+      <div className="hr" id="Work" />
       <Work name="Breno" />
       <style jsx global>
         {`
@@ -46,8 +47,24 @@ export default function Home() {
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
             --green-color: #5ae4a8;
-            --grey-color: #4E4E55;
+            --grey-color: #2C3342;
+            --surface-color: #fff;
             --pattern-font: 'Inter', sans-serif;
+          }
+          body::-webkit-scrollbar {
+            width: 12px; /* width of the entire scrollbar */
+          }
+
+          body::-webkit-scrollbar-track {
+            background: var(--brand-color); /* color of the tracking area */
+          }
+
+          body::-webkit-scrollbar-thumb {
+            background-color: var(
+              --brand-color
+            ); /* color of the scroll thumb */
+            border-radius: 20px; /* roundness of the scroll thumb */
+            border: 3px solid var(--brand-color); /* creates padding around scroll thumb */
           }
         `}
       </style>

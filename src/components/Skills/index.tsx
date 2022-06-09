@@ -121,11 +121,35 @@ export default function Skills(props: SkillsProps) {
           </li>
           <li>
             <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
+              title="PostgreSQL"
+              alt="Logo PostgreSQL"
+            />
+            <span className="title">PostgreSQL</span>
+          </li>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg"
+              title="Firebase"
+              alt="Logo Firebase"
+            />
+            <span className="title">Firebase</span>
+          </li>
+          <li>
+            <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
               title="MongoDB"
               alt="Logo MongoDB"
             />
             <span className="title">MongoDB</span>
+          </li>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg"
+              title="Heroku"
+              alt="Logo Heroku"
+            />
+            <span className="title">Heroku</span>
           </li>
           <li>
             <img
@@ -166,6 +190,14 @@ export default function Skills(props: SkillsProps) {
               alt="Logo Figma"
             />
             <span className="title">Figma</span>
+          </li>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/metamask-colored.svg"
+              title="MetaMask"
+              alt="Logo MetaMask"
+            />
+            <span className="title">MetaMask</span>
           </li>
         </ol>
       </div>

@@ -36,13 +36,15 @@ export const WorkContainer = styled.div`
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 400px;
+    min-width: 370px;
+    height: 100%;
+    min-height: 400px;
     gap: 15px;
   }
 
   .projects .card {
     width: 800px;
-    min-width: 375px;
+    min-width: 370px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -51,31 +53,38 @@ export const WorkContainer = styled.div`
     background-color: #282833;
     border-radius: 15px;
     /* gap: 15px; */
+    transition: 0.5s all;
+  }
+
+  .projects .card:hover{
+    transition: 0.5s all;
+    -webkit-box-shadow: 0px 0px 8px -2px #5ae4a8;
+    box-shadow: 0px 0px 8px -2px #5ae4a8;
   }
 
   .card .image {
-    width: 375px;
-    height: 375px;
+    width: 370px;
+    height: 370px;
     /* border: 1px solid red; */
     border-radius: 10px;
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-box-shadow: 0px 0px 8px -2px #5ae4a8;
-    box-shadow: 0px 0px 8px -2px #5ae4a8;
+    /* -webkit-box-shadow: 0px 0px 8px -2px #5ae4a8;
+    box-shadow: 0px 0px 8px -2px #5ae4a8; */
   }
 
   .card .image img {
-    width: 375px;
-    height: 375px;
+    width: 370px;
+    height: 370px;
     object-fit: cover;
     border-radius: 10px;
   }
 
   .card .span {
-    width: 375px;
-    height: 375px;
+    width: 370px;
+    height: 370px;
     border-radius: 10px;
     /* padding-left: 10px; */
   }
@@ -89,30 +98,17 @@ export const WorkContainer = styled.div`
     font-size: 1.1rem;
     padding-left: 10px;
     padding-top: 10px;
-    color: var(--green-color);
+    color: var(--mid-color);
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .card .span .tech {
     display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-right: 25px;
-  }
-
-  .card .span .tech ul {
-    list-style: none;
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    padding-left: 10px;
   }
-
-  .card .span .tech ul li img {
-    font-size: 20px;
+  ul {
+    list-style: none;
   }
 `

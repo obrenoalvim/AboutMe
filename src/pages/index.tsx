@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <Meta />
       <Link />
-      <Title name="About Me" />
+      <Title name="Breno Alvim" />
       <Header />
       <div className="hr" id="Home" />
       <Homepage name="Home" path_img="img/login.png" />

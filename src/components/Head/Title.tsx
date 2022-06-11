@@ -8,7 +8,7 @@ export default function Title(props: TitleProps) {
   return (
     <>
       <Head>
-        <title>{props.name} • Breno Alvim</title>
+        <title>{props.name} • Developer</title>
       </Head>
     </>
   );

@@ -95,13 +95,29 @@ export default function Skills(props: SkillsProps) {
             />
             <span className="title">BootStrap</span>
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
               title="PHP"
               alt="Logo PHP"
             />
             <span className="title">PHP</span>
+          </li> */}
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+              title="NodeJS"
+              alt="Logo NodeJS"
+            />
+            <span className="title">Node</span>
+          </li>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
+              title="Python"
+              alt="Logo Python"
+            />
+            <span className="title">Python</span>
           </li>
           <li>
             <img
@@ -143,30 +159,14 @@ export default function Skills(props: SkillsProps) {
             />
             <span className="title">MongoDB</span>
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg"
               title="Heroku"
               alt="Logo Heroku"
             />
             <span className="title">Heroku</span>
-          </li>
-          <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-              title="Python"
-              alt="Logo Python"
-            />
-            <span className="title">Python</span>
-          </li>
-          <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
-              title="NodeJS"
-              alt="Logo NodeJS"
-            />
-            <span className="title">Node</span>
-          </li>
+          </li> */}
           <li>
             <img
               src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png"
@@ -175,14 +175,14 @@ export default function Skills(props: SkillsProps) {
             />
             <span className="title">Photoshop</span>
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png"
               title="Adobe Illustrator"
               alt="Logo Adobe Illustrator"
             />
             <span className="title">Illustrator</span>
-          </li>
+          </li> */}
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
@@ -190,14 +190,6 @@ export default function Skills(props: SkillsProps) {
               alt="Logo Figma"
             />
             <span className="title">Figma</span>
-          </li>
-          <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/metamask-colored.svg"
-              title="MetaMask"
-              alt="Logo MetaMask"
-            />
-            <span className="title">MetaMask</span>
           </li>
         </ol>
       </div>

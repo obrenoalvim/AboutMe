@@ -30,12 +30,32 @@ export default function Work(props: WorkProps) {
               <span>Production</span>
             </div>
             <div className="tech">
-              <span>React, Bootstrap</span>
+              <ul>
+                <li>
+                  <img
+                    src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div className="description">
+              <span>Teste</span>
             </div>
             <div className="link">
               <a href="">Github</a>
-            </div>
-            <div className="repo">
               <a href="">Repo</a>
             </div>
           </div>

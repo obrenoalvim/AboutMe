@@ -25,13 +25,13 @@ export default function Home() {
       <Header />
       <div className="hr" id="Home" />
       <Homepage name="Home" path_img="img/login.png" />
-      <Social name="Breno" />
+      <Social />
       <div className="hr" id="About" />
       <About name="Breno" />
       <div className="hr" id="Skills" />
       <Skills name="Breno" />
       <div className="hr" id="Work" />
-      <Work name="Breno" />
+      <Work />
       <style jsx global>
         {`
           * {
@@ -47,7 +47,7 @@ export default function Home() {
             --mid-color: #cbd5e1;
             --light-color: #f8fafc;
             --green-color: #5ae4a8;
-            --grey-color: #2C3342;
+            --grey-color: #2c3342;
             --surface-color: #fff;
             --pattern-font: 'Inter', sans-serif;
           }

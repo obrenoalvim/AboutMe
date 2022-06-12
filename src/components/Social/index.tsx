@@ -1,10 +1,6 @@
 import { Social } from "./styles";
 
-interface HomepageProps {
-  name: string;
-}
-
-export default function Homepage(props: HomepageProps) {
+export default function Homepage() {
   return (
     <Social>
       <nav className="social">

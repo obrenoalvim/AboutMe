@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Social = styled.div`
   nav {
@@ -71,6 +71,6 @@ export const Social = styled.div`
   body {
     background: #4f8b89;
     color: #fff;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
-`;
+`

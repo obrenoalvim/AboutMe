@@ -1,10 +1,6 @@
 import { WorkContainer } from './styles'
 
-interface WorkProps {
-  name: string
-}
-
-export default function Work(props: WorkProps) {
+export default function Work() {
   return (
     <WorkContainer>
       <div className="title">

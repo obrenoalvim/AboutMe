@@ -79,4 +79,45 @@ export const AboutmeContainer = styled.div`
     -webkit-box-shadow: 17px 17px 40px 0px rgba(90, 228, 168, 0.7);
     box-shadow: 17px 17px 40px 0px rgba(90, 228, 168, 0.7);
   }
+
+  @media (max-width: 1300px) {
+    .span p,
+    .span .title,
+    .span a button {
+      padding-left: 100px;
+    }
+
+    .span a button {
+      padding-left: 0px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .span {
+      margin-bottom: 5px;
+    }
+
+    .span p {
+      font-size: 1.2rem;
+    }
+    .span p,
+    .span .title,
+    .span a button {
+      padding-left: 20px;
+    }
+
+    .span a {
+      margin: 0 auto;
+    }
+
+    .span a button {
+      padding-left: 0px;
+      margin: 0;
+    }
+
+    .avatar img {
+      width: 250px;
+      height: 250px;
+    }
+  }
 `

@@ -61,6 +61,8 @@ export default function Work() {
           </div>
         </div>
 
+        {/* <div className="hr"></div> */}
+
         <div className="card">
           <div className="image">
             <img src={`img/bestowblood.png`} alt="" />

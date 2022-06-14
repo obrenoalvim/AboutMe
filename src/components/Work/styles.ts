@@ -16,6 +16,8 @@ export const WorkContainer = styled.div`
     color: var(--light-color);
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 
   .underline {
@@ -39,6 +41,7 @@ export const WorkContainer = styled.div`
     min-width: 370px;
     height: 100%;
     gap: 15px;
+    margin-bottom: 150px;
   }
 
   .projects .card {

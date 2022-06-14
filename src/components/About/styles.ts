@@ -98,7 +98,7 @@ export const AboutmeContainer = styled.div`
     }
 
     .span p {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     .span p,
     .span .title,

@@ -7,10 +7,12 @@ export default function Header() {
         <nav>
           <input id="nav-toggle" type="checkbox" />
           <div className="logo span-logo">
-            <span>
-              {`<`}breno.<strong>dev</strong>
-              {`/>`}
-            </span>
+            <a href="#Home">
+              <span>
+                {`<`}breno.<strong>dev</strong>
+                {`/>`}
+              </span>
+            </a>
           </div>
           <ul className="links">
             <li>
@@ -24,6 +26,9 @@ export default function Header() {
             </li>
             <li>
               <a href="#Work">Work</a>
+            </li>
+            <li>
+              <a href="#Footer">Contact</a>
             </li>
           </ul>
           <label htmlFor="nav-toggle" className="icon-burger">

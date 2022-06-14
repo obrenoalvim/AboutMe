@@ -6,6 +6,7 @@ export const FooterContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 30vh;
   height: 100%;
   background-color: var(--brand-color);
 
@@ -13,6 +14,30 @@ export const FooterContainer = styled.div`
     width: 100%;
     height: 1px;
     background-color: #00000000;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title span {
+    font-size: 2.5rem;
+    color: var(--light-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .underline {
+    width: 100%;
+    height: 6px;
+    background-color: var(--green-color);
   }
 
   .span {

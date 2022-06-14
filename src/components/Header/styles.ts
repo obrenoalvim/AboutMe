@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderNav = styled.div`
   @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
   * {
-    font-family: "Fira Code", monospace;
+    font-family: 'Fira Code', monospace;
     /* font-family: "Inter", sans-serif; */
   }
   body {
@@ -16,7 +16,7 @@ export const HeaderNav = styled.div`
     left: 0;
     right: 0;
     top: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0 5%;
     height: 11.7vh;
     background-color: var(--brand-color);
@@ -30,6 +30,11 @@ export const HeaderNav = styled.div`
     align-items: center;
     font-size: 24px;
     color: var(--light-color);
+  }
+
+  .span-logo a {
+    color: var(--light-color);
+    text-decoration: none;
   }
 
   .span-logo span {
@@ -129,4 +134,4 @@ export const HeaderNav = styled.div`
       opacity: 0;
     }
   }
-`;
+`

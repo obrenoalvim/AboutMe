@@ -1,4 +1,4 @@
-import { Social } from "./styles";
+import { Social } from './styles'
 
 export default function Homepage() {
   return (
@@ -20,8 +20,16 @@ export default function Homepage() {
               Linkedin <i className="fa fa-linkedin"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1yaxIFWiEy4ES-06WaCcMWWF3CqDD2cBZ/view?usp=sharing"
+              target={`_blank`}
+            >
+              CV <i className="fas fa-paperclip"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     </Social>
-  );
+  )
 }

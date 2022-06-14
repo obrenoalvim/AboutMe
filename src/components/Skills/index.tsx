@@ -135,14 +135,14 @@ export default function Skills(props: SkillsProps) {
             />
             <span className="title">MySql</span>
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
               title="PostgreSQL"
               alt="Logo PostgreSQL"
             />
             <span className="title">PostgreSQL</span>
-          </li>
+          </li> */}
           <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg"
@@ -151,14 +151,14 @@ export default function Skills(props: SkillsProps) {
             />
             <span className="title">Firebase</span>
           </li>
-          <li>
+          {/* <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
               title="MongoDB"
               alt="Logo MongoDB"
             />
             <span className="title">MongoDB</span>
-          </li>
+          </li> */}
           {/* <li>
             <img
               src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg"

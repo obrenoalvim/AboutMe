@@ -70,6 +70,7 @@ export const FooterContainer = styled.div`
     font-weight: bold;
     border-radius: 10px;
     transition: 0.5s all;
+    border: none;
   }
 
   .button a button:hover {
@@ -77,5 +78,11 @@ export const FooterContainer = styled.div`
     background-color: var(--brand-color);
     color: #5ae4a8;
     box-shadow: 0px 0px 10px #5ae4a8;
+  }
+
+  @media (max-width: 768px) {
+    .span {
+      text-align: center;
+    }
   }
 `

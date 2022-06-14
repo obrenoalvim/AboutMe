@@ -94,4 +94,23 @@ export const SkillsContainer = styled.div`
     color: #5ae4a8;
     box-shadow: 0px 0px 10px #5ae4a8;
   }
+
+  @media (max-width: 768px) {
+    .title {
+      padding-top: 12vh;
+    }
+
+    .svg {
+      margin: 0 auto;
+    }
+
+    .svg ol {
+      padding: 20px;
+    }
+
+    .svg ol li img {
+      width: 70px;
+      height: 70px;
+    }
+  }
 `

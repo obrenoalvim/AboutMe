@@ -73,4 +73,8 @@ export const Social = styled.div`
     color: #fff;
     font-family: 'Raleway', sans-serif;
   }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `

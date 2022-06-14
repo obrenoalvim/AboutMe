@@ -4,7 +4,6 @@ export const HeaderNav = styled.div`
   @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
   * {
     font-family: 'Fira Code', monospace;
-    /* font-family: "Inter", sans-serif; */
   }
   body {
     padding: 0;
@@ -20,7 +19,6 @@ export const HeaderNav = styled.div`
     padding: 0 5%;
     height: 11.7vh;
     background-color: var(--brand-color);
-    /* border-bottom: 1px solid var(--light-color); */
   }
   nav .logo {
     float: left;

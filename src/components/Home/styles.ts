@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HomepagePattern = styled.div`
-  @import url("https://rsms.me/inter/inter.css");
+  @import url('https://rsms.me/inter/inter.css');
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -62,13 +62,13 @@ export const HomepagePattern = styled.div`
   .span p {
     font-size: 1.8rem;
     color: var(--mid-color);
-    font-family: "inter", sans-serif;
+    font-family: 'inter', sans-serif;
   }
 
   .span span {
     font-size: 3.9rem;
     color: var(--light-color);
-    font-family: "inter", sans-serif;
+    font-family: 'inter', sans-serif;
   }
 
   .span img {
@@ -121,14 +121,14 @@ export const HomepagePattern = styled.div`
     .span p {
       font-size: 1.3rem;
       color: var(--light-color);
-      font-family: "inter", sans-serif;
+      font-family: 'inter', sans-serif;
       padding-left: 0px;
     }
 
     .span span {
       font-size: 2.5rem;
       color: var(--light-color);
-      font-family: "inter", sans-serif;
+      font-family: 'inter', sans-serif;
       padding-left: 0px;
     }
 
@@ -141,4 +141,40 @@ export const HomepagePattern = styled.div`
       width: 370px;
     }
   }
-`;
+
+  @media (max-width: 1270px) {
+    .span span {
+      font-size: 2.5rem;
+    }
+
+    .span button {
+      margin-left: 150px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .span button {
+      margin-left: 100px;
+      padding-left: 0px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .span button {
+      margin-left: 50px;
+      padding-left: 0px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .span button {
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 600px) {
+    .span button {
+      margin-left: 0px;
+      padding-left: 0px;
+    }
+  }
+`

@@ -38,7 +38,6 @@ export const WorkContainer = styled.div`
     width: 100%;
     min-width: 370px;
     height: 100%;
-    min-height: 400px;
     gap: 15px;
   }
 
@@ -56,7 +55,7 @@ export const WorkContainer = styled.div`
     transition: 0.5s all;
   }
 
-  .projects .card:hover{
+  .projects .card:hover {
     transition: 0.5s all;
     -webkit-box-shadow: 0px 0px 8px -2px #5ae4a8;
     box-shadow: 0px 0px 8px -2px #5ae4a8;
@@ -65,14 +64,11 @@ export const WorkContainer = styled.div`
   .card .image {
     width: 370px;
     height: 370px;
-    /* border: 1px solid red; */
     border-radius: 10px;
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* -webkit-box-shadow: 0px 0px 8px -2px #5ae4a8;
-    box-shadow: 0px 0px 8px -2px #5ae4a8; */
   }
 
   .card .image img {
@@ -105,10 +101,44 @@ export const WorkContainer = styled.div`
 
   .card .span .tech {
     display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    gap: 10px;
+  }
+
+  .card .span .tech img {
+    width: 30px;
+  }
+
+  .card .span .description {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 1.1rem;
+    color: var(--mid-color);
+    font-family: 'Inter', sans-serif;
+  }
+
+  .card .span .link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+
+  .card .span .link a {
+    width: 60px;
+    height: 60px;
+    display: flex;
     justify-content: center;
     align-items: center;
-  }
-  ul {
-    list-style: none;
+    background-color: var(--brand-color);
+    color: var(--light-color);
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 15px;
   }
 `

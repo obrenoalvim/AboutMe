@@ -16,6 +16,8 @@ import Skills from '../components/Skills/index'
 
 import Work from '../components/Work/index'
 
+import Footer from '../components/Footer/index'
+
 export default function Home() {
   return (
     <>
@@ -32,6 +34,8 @@ export default function Home() {
       <Skills name="Breno" />
       <div className="hr" id="Work" />
       <Work />
+      <div className="hr" id="Footer" />
+      <Footer />
       <style jsx global>
         {`
           * {

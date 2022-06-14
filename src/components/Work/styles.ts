@@ -141,4 +141,20 @@ export const WorkContainer = styled.div`
     font-size: 25px;
     border-radius: 15px;
   }
+
+  @media (max-width: 768px) {
+    .title {
+      margin-top: 1vh;
+      margin-bottom: 2vh;
+    }
+
+    .projects {
+      width: 95%;
+      min-width: 360px;
+    }
+
+    .projects .card .image img {
+      width: 100%;
+    }
+  }
 `

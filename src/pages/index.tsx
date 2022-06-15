@@ -23,19 +23,19 @@ export default function Home() {
     <>
       <Meta />
       <Link />
-      <Title name="Breno Alvim" />
-      <Header />
+      <Title name="Breno Alvim" language="EUA" />
+      <Header language="EUA" />
       <div className="hr" id="Home" />
-      <Homepage name="Home" path_img="img/login.png" />
+      <Homepage name="Home" path_img="img/login.png" language="EUA" />
       <Social />
       <div className="hr" id="About" />
-      <About name="Breno" />
+      <About name="Breno" language="EUA" />
       <div className="hr" id="Skills" />
-      <Skills name="Breno" />
+      <Skills name="Breno" language="EUA" />
       <div className="hr" id="Work" />
-      <Work />
+      <Work language="EUA" />
       <div className="hr" id="Footer" />
-      <Footer />
+      <Footer language="EUA" />
       <style jsx global>
         {`
           * {

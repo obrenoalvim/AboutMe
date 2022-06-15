@@ -1,1 +1,1 @@
-This is a starter template for Next.js with TypeScript.
+Website to show my service and tell a little about myself.

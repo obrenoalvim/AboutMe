@@ -1,15 +1,26 @@
 interface TitleProps {
-  name: string;
+  name: string
+  language: string
 }
 
-import Head from "next/head";
+import Head from 'next/head'
 
 export default function Title(props: TitleProps) {
-  return (
-    <>
-      <Head>
-        <title>{props.name} • Developer</title>
-      </Head>
-    </>
-  );
+  if (props.language === 'Br') {
+    return (
+      <>
+        <Head>
+          <title>{props.name}</title>
+        </Head>
+      </>
+    )
+  } else {
+    return (
+      <>
+        <Head>
+          <title>{props.name}</title>
+        </Head>
+      </>
+    )
+  }
 }

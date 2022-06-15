@@ -59,7 +59,7 @@ export const AboutmeContainer = styled.div`
     border-radius: 5px;
     color: var(--brand-color);
     font-weight: bold;
-    width: 100px;
+    width: 110px;
     height: 40px;
     font-size: large;
     transition: 0.5s all;

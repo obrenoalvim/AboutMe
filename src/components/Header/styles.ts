@@ -54,6 +54,9 @@ export const HeaderNav = styled.div`
   nav .links li {
     list-style: none;
   }
+  nav .links li a img {
+    width: 30px;
+  }
   nav .links a {
     display: block;
     padding: 1em;

@@ -6,7 +6,7 @@ interface TitleProps {
 import Head from 'next/head'
 
 export default function Title(props: TitleProps) {
-  if (props.language === 'Br') {
+  if (props.language == 'Br') {
     return (
       <>
         <Head>

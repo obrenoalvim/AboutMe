@@ -1,5 +1,5 @@
 interface TitleProps {
-  name: string
+  name: string,
   language: string
 }
 

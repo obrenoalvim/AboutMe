@@ -80,7 +80,7 @@ export default function Work(props: WorkProps) {
             </div>
             <div className="span">
               <div className="title">
-                <span>Bestow Blood</span>
+                <span>Grant Me</span>
               </div>
               <div className="status">
                 <span>Em Desenvolvimento</span>
@@ -109,7 +109,8 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="description">
                 <span>
-                  Sistema para conectar pessoas que precisam de doação de sangue com seus respectivos doadores.
+                  Sistema para conectar pessoas que precisam de doação de sangue
+                  com seus respectivos doadores.
                 </span>
               </div>
               <div className="link">
@@ -200,7 +201,7 @@ export default function Work(props: WorkProps) {
             </div>
             <div className="span">
               <div className="title">
-                <span>Bestow Blood</span>
+                <span>Grant Me</span>
               </div>
               <div className="status">
                 <span>Development</span>

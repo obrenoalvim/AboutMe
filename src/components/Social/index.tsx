@@ -7,17 +7,19 @@ export default function Homepage() {
         <ul>
           <li>
             <a href="mailto:brenoalvim.dev@gmail.com" target={`_blank`}>
-              Email <i className="fas fa-envelope"></i>
+              Email
+              <img src="svg/square-envelope-solid.svg" alt="" />
             </a>
           </li>
           <li>
             <a href="https://github.com/brenoalvim" target={`_blank`}>
-              Github <i className="fa fa-github"></i>
+              Github
+              <img src="svg/github-brands.svg" alt="" />
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/brenoalvim" target={`_blank`}>
-              Linkedin <i className="fa fa-linkedin"></i>
+              Linkedin <img src="svg/linkedin-brands.svg" alt="" />
             </a>
           </li>
           <li>
@@ -25,7 +27,7 @@ export default function Homepage() {
               href="https://drive.google.com/file/d/1yaxIFWiEy4ES-06WaCcMWWF3CqDD2cBZ/view?usp=sharing"
               target={`_blank`}
             >
-              CV <i className="fas fa-paperclip"></i>
+              CV <img src="svg/paperclip-solid.svg" alt="" />
             </a>
           </li>
         </ul>

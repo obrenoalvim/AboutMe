@@ -55,7 +55,25 @@ export const Social = styled.div`
     transform: rotate(360deg);
     transition: all 1s;
   }
+  .social ul li:hover img {
+    color: #f8fafc;
+    background: rgba(0, 0, 0, 0.36);
+    transform: rotate(360deg);
+    transition: all 1s;
+  }
   .social ul li i {
+    margin-left: 10px;
+    color: #0f172a;
+    background: #f8fafc;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #f8fafc;
+    transform: rotate(0deg);
+  }
+  .social ul li img {
     margin-left: 10px;
     color: #0f172a;
     background: #f8fafc;

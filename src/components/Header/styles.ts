@@ -30,6 +30,10 @@ export const HeaderNav = styled.div`
     color: var(--light-color);
   }
 
+  nav .logo a span strong {
+    color: var(--green-color);
+  }
+
   .span-logo a {
     color: var(--light-color);
     text-decoration: none;

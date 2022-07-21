@@ -38,6 +38,7 @@ export const Social = styled.div`
     background: rgba(0, 0, 0, 0.36);
     width: 300px;
     text-align: right;
+    flex-wrap: nowrap;
     padding: 10px;
     border-radius: 0 30px 30px 0;
     transition: all 1s;
@@ -49,7 +50,7 @@ export const Social = styled.div`
   .social ul li:hover a {
     color: #000;
   }
-  .social ul li:hover i {
+  .social ul li:hover img {
     color: #f8fafc;
     background: rgba(0, 0, 0, 0.36);
     transform: rotate(360deg);
@@ -61,7 +62,7 @@ export const Social = styled.div`
     transform: rotate(360deg);
     transition: all 1s;
   }
-  .social ul li i {
+  .social ul li img {
     margin-left: 10px;
     color: #0f172a;
     background: #f8fafc;

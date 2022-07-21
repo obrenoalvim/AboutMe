@@ -1,1 +1,1 @@
-Website to show my service and tell a little about myself.
+Landing page to show my development in developer career.

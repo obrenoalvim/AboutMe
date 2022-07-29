@@ -18,11 +18,11 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/MyStats.png`} alt="" />
+              <img src={`img/FrontGit.jpeg`} alt="" />
             </div>
             <div className="span">
               <div className="title">
-                <span>My Stats</span>
+                <span>GitStats</span>
               </div>
               <div className="status">
                 <span>Em Produção</span>
@@ -57,23 +57,17 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/MyStats"
+                  href="https://github.com/brenoalvim/GitStats"
                   target={`_blank`}
                 >
                   <i className="fa fa-github"></i>
                 </a>
-                <a
-                  href="https://brenoalvim.github.io/MyStats"
-                  target={`_blank`}
-                >
+                <a href="https://statsgit.vercel.app" target={`_blank`}>
                   <i className="fas fa-share-square"></i>
                 </a>
               </div>
             </div>
           </div>
-
-          {/* <div className="hr"></div> */}
-
           <div className="card">
             <div className="image">
               <img src={`img/bestowblood.png`} alt="" />
@@ -139,11 +133,11 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/MyStats.png`} alt="" />
+              <img src={`img/FrontGit.jpeg`} alt="" />
             </div>
             <div className="span">
               <div className="title">
-                <span>My Stats</span>
+                <span>GitStats</span>
               </div>
               <div className="status">
                 <span>Production</span>
@@ -177,14 +171,11 @@ export default function Work(props: WorkProps) {
                 </span>
               </div>
               <div className="link">
-                <a
-                  href="https://github.com/brenoalvim/MyStats"
-                  target={`_blank`}
-                >
+                <a href="https://statsgit.vercel.app" target={`_blank`}>
                   <i className="fa fa-github"></i>
                 </a>
                 <a
-                  href="https://brenoalvim.github.io/MyStats"
+                  href="https://brenoalvim.github.io/GitStats"
                   target={`_blank`}
                 >
                   <i className="fas fa-share-square"></i>

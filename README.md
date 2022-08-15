@@ -8,3 +8,7 @@ Node ^16.16
 ~~~
 npm i
 ~~~
+
+~~~
+npm run dev
+~~~

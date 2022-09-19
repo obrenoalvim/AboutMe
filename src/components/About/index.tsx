@@ -18,11 +18,11 @@ export default function Aboutme(props: AboutmeProps) {
           </div>
           <p>
             Sou Desenvolvedor Web Full-Stack, trabalhando profissionalmente na
-            área desde março de 2021. Gosto de gerar novas ideias e desenvolver
-            soluções para problemas amplamente relevantes. Ao longo da minha
-            carreira passei por vários desafios que me fizeram progredir e
-            aprender rapidamente, então sempre procuro passar meu conhecimento,
-            ensinando o maior número de pessoas possível!
+            área desde Janeiro de 2018. Gosto de gerar novas ideias e
+            desenvolver soluções para problemas amplamente relevantes. Ao longo
+            da minha carreira passei por vários desafios que me fizeram
+            progredir e aprender rapidamente, então sempre procuro passar meu
+            conhecimento, ensinando o maior número de pessoas possível!
           </p>
           <a href="#Skills">
             <button>Habilidades</button>

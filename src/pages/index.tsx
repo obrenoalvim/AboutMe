@@ -20,11 +20,18 @@ import Footer from '../components/Footer/index'
 
 import GlobalStyle from './global'
 
+import Seo from '../components/Head/Seo'
+
 export default function Home() {
   return (
     <>
       <Meta />
       <Link />
+      <Seo
+        title="Breno Alvim • Web Developer"
+        description="Full-Stack Developer"
+        url_image="https://avatars.githubusercontent.com/u/39434668?v=4"
+      />
       <GlobalStyle />
       <Title name="Breno Alvim" language="EUA" />
       <Header language="EUA" />

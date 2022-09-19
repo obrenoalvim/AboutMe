@@ -30,7 +30,6 @@ export default function Home() {
       <Header language="EUA" />
       <div className="hr" id="Home" />
       <Homepage name="Home" path_img="img/login.png" language="EUA" />
-      <Social />
       <div className="hr" id="About" />
       <About name="Breno" language="EUA" />
       <div className="hr" id="Skills" />
@@ -38,6 +37,7 @@ export default function Home() {
       <div className="hr" id="Work" />
       <Work language="EUA" />
       <div className="hr" id="Footer" />
+      {/* <Social /> */}
       <Footer language="EUA" />
     </>
   )

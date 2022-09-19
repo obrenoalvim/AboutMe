@@ -3,35 +3,33 @@ import { Social } from './styles'
 export default function Homepage() {
   return (
     <Social>
-      <nav className="social">
-        <ul>
-          <li>
-            <a href="mailto:brenoalvim.dev@gmail.com" target={`_blank`}>
-              Email
-              <img src="svg/square-envelope-solid.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/brenoalvim" target={`_blank`}>
-              Github
-              <img src="svg/github-brands.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/brenoalvim" target={`_blank`}>
-              Linkedin <img src="svg/linkedin-brands.svg" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/file/d/1yaxIFWiEy4ES-06WaCcMWWF3CqDD2cBZ/view?usp=sharing"
-              target={`_blank`}
-            >
-              CV <img src="svg/paperclip-solid.svg" />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100012512077239">
+            <i className="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i className="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i className="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/raj-kumar-web-designer/">
+            <i className="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i className="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </Social>
   )
 }

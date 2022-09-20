@@ -33,8 +33,8 @@ export default function Work(props: WorkProps) {
                   title="React"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
-                  title="JavaScript"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  title="TypeScript"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
@@ -48,6 +48,10 @@ export default function Work(props: WorkProps) {
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
                   title="CSS3"
                 />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
+                />
               </div>
               <div className="description">
                 <span>
@@ -60,10 +64,10 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/brenoalvim/GitStats"
                   target={`_blank`}
                 >
-                  <i className="fa fa-github"></i>
+                  <img src="svg/github-brands.svg" alt="" />
                 </a>
                 <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <i className="fas fa-share-square"></i>
+                  <img src="svg/share-solid.svg" alt="" />
                 </a>
               </div>
             </div>
@@ -81,8 +85,8 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="tech">
                 <img
-                  src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
-                  title="Next"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  title="React"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
@@ -93,12 +97,8 @@ export default function Work(props: WorkProps) {
                   title="Bootstrap"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
-                  title="HTML5"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
-                  title="CSS3"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
                 />
               </div>
               <div className="description">
@@ -109,10 +109,10 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/MyStats"
+                  href="https://github.com/brenoalvim/GrantMe"
                   target={`_blank`}
                 >
-                  <i className="fa fa-github"></i>
+                  <img src="svg/github-brands.svg" alt="" />
                 </a>
               </div>
             </div>
@@ -148,61 +148,6 @@ export default function Work(props: WorkProps) {
                   title="React"
                 />
                 <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
-                  title="JavaScript"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-                  title="Bootstrap"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
-                  title="HTML5"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
-                  title="CSS3"
-                />
-              </div>
-              <div className="description">
-                <span>
-                  Website for developers who have a Github account to see their
-                  stats.
-                </span>
-              </div>
-              <div className="link">
-                <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <i className="fa fa-github"></i>
-                </a>
-                <a
-                  href="https://brenoalvim.github.io/GitStats"
-                  target={`_blank`}
-                >
-                  <i className="fas fa-share-square"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="hr"></div> */}
-
-          <div className="card">
-            <div className="image">
-              <img src={`img/bestowblood.png`} alt="" />
-            </div>
-            <div className="span">
-              <div className="title">
-                <span>Grant Me</span>
-              </div>
-              <div className="status">
-                <span>Development</span>
-              </div>
-              <div className="tech">
-                <img
-                  src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png"
-                  title="Next"
-                />
-                <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
                   title="TypeScript"
                 />
@@ -218,6 +163,59 @@ export default function Work(props: WorkProps) {
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
                   title="CSS3"
                 />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
+                />
+              </div>
+              <div className="description">
+                <span>
+                  Website for developers who have a Github account to see their
+                  stats.
+                </span>
+              </div>
+              <div className="link">
+                <a
+                  href="https://github.com/brenoalvim/GitStats"
+                  target={`_blank`}
+                >
+                  <img src="svg/github-brands.svg" alt="" />
+                </a>
+                <a href="https://statsgit.vercel.app" target={`_blank`}>
+                  <img src="svg/share-solid.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="image">
+              <img src={`img/bestowblood.png`} alt="" />
+            </div>
+            <div className="span">
+              <div className="title">
+                <span>Grant Me</span>
+              </div>
+              <div className="status">
+                <span>Development</span>
+              </div>
+              <div className="tech">
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  title="React"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  title="TypeScript"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                  title="Bootstrap"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
+                />
               </div>
               <div className="description">
                 <span>
@@ -227,10 +225,10 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/MyStats"
+                  href="https://github.com/brenoalvim/GrantMe"
                   target={`_blank`}
                 >
-                  <i className="fa fa-github"></i>
+                  <img src="svg/github-brands.svg" alt="" />
                 </a>
               </div>
             </div>

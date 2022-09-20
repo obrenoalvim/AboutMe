@@ -138,13 +138,15 @@ export const WorkContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--brand-color);
-    color: var(--light-color);
+    background-color: var(--light-color);
     text-decoration: none;
     font-size: 25px;
     border-radius: 15px;
   }
 
+  .link a img {
+    width: 30px;
+  }
   @media (max-width: 768px) {
     .title {
       margin-top: 1vh;

@@ -8,8 +8,6 @@ import Header from '../components/Header/index'
 
 import Homepage from '../components/Home/index'
 
-import Social from '../components/Social/index'
-
 import About from '../components/About/index'
 
 import Skills from '../components/Skills/index'
@@ -44,7 +42,6 @@ export default function Home() {
       <div className="hr" id="Work" />
       <Work language="EUA" />
       <div className="hr" id="Footer" />
-      {/* <Social /> */}
       <Footer language="EUA" />
     </>
   )

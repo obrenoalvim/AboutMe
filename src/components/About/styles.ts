@@ -27,7 +27,6 @@ export const AboutmeContainer = styled.div`
     min-width: 375px;
     height: 100%;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
   }
 
   .span {

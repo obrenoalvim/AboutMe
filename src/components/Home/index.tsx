@@ -22,7 +22,6 @@ export default function Homepage(props: HomepageProps) {
           <div className="hr"></div>
           <img
             src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=2600&color=cbd5e1&width=375&height=60&lines=Desenvolvedor+Web;Designer;Desenvolvedor+de+Software;Estudante;UX+Designer`}
-            alt=""
           />
           <div className="hr"></div>
           <p>Olá, Mundo! Conheça um pouco da minha história!</p>
@@ -32,7 +31,7 @@ export default function Homepage(props: HomepageProps) {
           </a>
         </div>
         <div className="image">
-          <img src={props.path_img} alt="" />
+          <img src={props.path_img} />
         </div>
       </HomepagePattern>
     )
@@ -51,7 +50,6 @@ export default function Homepage(props: HomepageProps) {
           <div className="hr"></div>
           <img
             src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=2600&color=cbd5e1&width=375&height=60&lines=Web+Developer;Designer;Full-Stack+Developer;Software+Developer;Student;UX+Designer`}
-            alt=""
           />
           <div className="hr"></div>
           <p>Hello, World! Know some of my history!</p>
@@ -61,7 +59,7 @@ export default function Homepage(props: HomepageProps) {
           </a>
         </div>
         <div className="image">
-          <img src={props.path_img} alt="" />
+          <img src={props.path_img} />
         </div>
       </HomepagePattern>
     )

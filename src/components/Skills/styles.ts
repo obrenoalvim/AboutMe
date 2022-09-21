@@ -54,7 +54,6 @@ export const SkillsContainer = styled.div`
   }
 
   .svg ol li img {
-    /* filter: grayscale(1); */
     fill: var(--grey-color);
     width: 90px;
     height: 90px;

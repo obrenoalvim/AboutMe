@@ -2,13 +2,16 @@ import styled from 'styled-components'
 
 export const HeaderNav = styled.div`
   @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
+
   * {
     font-family: 'Fira Code', monospace;
   }
+
   body {
     padding: 0;
     margin: 0;
   }
+
   nav {
     position: fixed;
     z-index: 10;
@@ -20,6 +23,7 @@ export const HeaderNav = styled.div`
     height: 11.7vh;
     background-color: var(--brand-color);
   }
+
   nav .logo {
     float: left;
     width: 40%;
@@ -42,9 +46,11 @@ export const HeaderNav = styled.div`
   .span-logo span {
     font-size: 30px;
   }
+
   nav .logo img {
     width: 240px;
   }
+
   nav .links {
     float: right;
     padding: 0;
@@ -55,12 +61,15 @@ export const HeaderNav = styled.div`
     justify-content: space-around;
     align-items: center;
   }
+
   nav .links li {
     list-style: none;
   }
+
   nav .links li a img {
     width: 30px;
   }
+
   nav .links a {
     display: block;
     padding: 1em;
@@ -74,6 +83,7 @@ export const HeaderNav = styled.div`
     position: absolute;
     top: -100px;
   }
+
   nav .icon-burger {
     display: none;
     position: absolute;
@@ -81,6 +91,7 @@ export const HeaderNav = styled.div`
     top: 50%;
     transform: translateY(-50%);
   }
+  
   nav .icon-burger .line {
     width: 30px;
     height: 5px;

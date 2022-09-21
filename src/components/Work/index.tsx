@@ -18,7 +18,7 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/FrontGit.jpeg`} alt="" />
+              <img src={`img/FrontGit.jpeg`} />
             </div>
             <div className="span">
               <div className="title">
@@ -64,17 +64,17 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/brenoalvim/GitStats"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" alt="" />
+                  <img src="svg/github-brands.svg" />
                 </a>
                 <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" alt="" />
+                  <img src="svg/share-solid.svg" />
                 </a>
               </div>
             </div>
           </div>
           <div className="card">
             <div className="image">
-              <img src={`img/bestowblood.png`} alt="" />
+              <img src={`img/bestowblood.png`} />
             </div>
             <div className="span">
               <div className="title">
@@ -112,7 +112,7 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/brenoalvim/GrantMe"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" alt="" />
+                  <img src="svg/github-brands.svg" />
                 </a>
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/FrontGit.jpeg`} alt="" />
+              <img src={`img/FrontGit.jpeg`} />
             </div>
             <div className="span">
               <div className="title">
@@ -179,10 +179,10 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/brenoalvim/GitStats"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" alt="" />
+                  <img src="svg/github-brands.svg" />
                 </a>
                 <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" alt="" />
+                  <img src="svg/share-solid.svg" />
                 </a>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function Work(props: WorkProps) {
 
           <div className="card">
             <div className="image">
-              <img src={`img/bestowblood.png`} alt="" />
+              <img src={`img/bestowblood.png`} />
             </div>
             <div className="span">
               <div className="title">
@@ -228,7 +228,7 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/brenoalvim/GrantMe"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" alt="" />
+                  <img src="svg/github-brands.svg" />
                 </a>
               </div>
             </div>

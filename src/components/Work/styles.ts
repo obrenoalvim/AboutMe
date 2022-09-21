@@ -54,7 +54,6 @@ export const WorkContainer = styled.div`
     flex-wrap: wrap;
     background-color: #282833;
     border-radius: 15px;
-    /* gap: 15px; */
     transition: 0.5s all;
   }
 
@@ -85,7 +84,6 @@ export const WorkContainer = styled.div`
     width: 370px;
     height: 370px;
     border-radius: 10px;
-    /* padding-left: 10px; */
   }
 
   .card .span .title {
@@ -99,7 +97,6 @@ export const WorkContainer = styled.div`
     padding-top: 10px;
     color: var(--mid-color);
     font-family: 'Inter', sans-serif;
-    /* font-weight: bold; */
   }
 
   .card .span .tech {
@@ -147,6 +144,7 @@ export const WorkContainer = styled.div`
   .link a img {
     width: 30px;
   }
+
   @media (max-width: 768px) {
     .title {
       margin-top: 1vh;

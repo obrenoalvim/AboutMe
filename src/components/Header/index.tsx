@@ -37,7 +37,7 @@ export default function Header(props: HeaderProps) {
               </li>
               <li>
                 <a href="/">
-                  <img src="icon/eua.png" alt="" />
+                  <img src="icon/eua.png"  />
                 </a>
               </li>
             </ul>
@@ -82,7 +82,7 @@ export default function Header(props: HeaderProps) {
               </li>
               <li>
                 <a href="/Br">
-                  <img src="icon/br.png" alt="" />
+                  <img src="icon/br.png"  />
                 </a>
               </li>
             </ul>

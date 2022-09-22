@@ -8,8 +8,6 @@ import Header from '../../components/Header/index'
 
 import Homepage from '../../components/Home/index'
 
-import Social from '../../components/Social/index'
-
 import About from '../../components/About/index'
 
 import Skills from '../../components/Skills/index'
@@ -37,7 +35,6 @@ export default function Home() {
       <Header language="Br" />
       <div className="hr" id="Home" />
       <Homepage name="Home" path_img="img/login.png" language="Br" />
-      <Social />
       <div className="hr" id="About" />
       <About name="Breno" language="Br" />
       <div className="hr" id="Skills" />

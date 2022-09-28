@@ -4,6 +4,7 @@ interface SEOProps {
   title: any
   description: any
   url_image: any
+  url_site: any
 }
 
 export default function Meta(props: SEOProps) {
@@ -19,6 +20,10 @@ export default function Meta(props: SEOProps) {
         <meta name="twitter:card" content="summary" />
 
         <meta name="twitter:description" content={props.description} />
+
+        <meta name="twitter:creator" content="@nickbilton" />
+
+        <meta property="og:url" content={props.url_site} />
       </Head>
     </>
   )

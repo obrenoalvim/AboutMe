@@ -29,6 +29,7 @@ export default function Home() {
         title="Breno Alvim • Desenvolvedor Web"
         description="Desenvolvedor Web Full-Stack"
         url_image="https://avatars.githubusercontent.com/u/39434668?v=4"
+        url_site="https://brenoalvim.vercel.app/Br"
       />
       <GlobalStyle />
       <Title name="Breno Alvim • Desenvolvedor" language="Br" />

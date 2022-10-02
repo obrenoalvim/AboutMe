@@ -29,6 +29,10 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="tech">
                 <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
+                <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
                   title="React"
                 />
@@ -85,6 +89,10 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="tech">
                 <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
+                <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
                   title="React"
                 />
@@ -117,6 +125,20 @@ export default function Work(props: WorkProps) {
               </div>
             </div>
           </div>
+          <div className="more-work pattern">
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
+          </div>
         </div>
       </WorkContainer>
     )
@@ -143,6 +165,10 @@ export default function Work(props: WorkProps) {
                 <span>Production</span>
               </div>
               <div className="tech">
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
                   title="React"
@@ -201,6 +227,10 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="tech">
                 <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
+                <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
                   title="React"
                 />
@@ -232,6 +262,20 @@ export default function Work(props: WorkProps) {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="more-work pattern">
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
+            <img
+              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              alt=""
+            />
           </div>
         </div>
       </WorkContainer>

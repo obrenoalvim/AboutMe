@@ -160,4 +160,10 @@ export const WorkContainer = styled.div`
       width: 100%;
     }
   }
+
+  .more-work {
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
 `

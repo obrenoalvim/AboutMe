@@ -19,6 +19,12 @@ export default createGlobalStyle`
     --surface-color: #fff;
     --pattern-font: 'Inter', sans-serif;
   }
+  .pattern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   body::-webkit-scrollbar {
     width: 12px; 
   }

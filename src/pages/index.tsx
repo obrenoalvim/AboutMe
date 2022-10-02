@@ -21,6 +21,13 @@ import GlobalStyle from './global'
 import Seo from '../components/Head/Seo'
 
 export default function Home() {
+  function countVisitors() {
+    fetch(
+      `https://api.countapi.xyz/hit/brenoalvimvercel/0af962d2-6393-494c-927d-d2adf19ffb5c`
+    )
+  }
+
+  countVisitors()
   return (
     <>
       <Meta />

@@ -42,7 +42,7 @@ export default function Home() {
       <Div>
         <section className="page-contain">
           <a href="#" className="data-card">
-            <h3 className="visitorsEUA">270</h3>
+            <h3 className="visitorsEUA"></h3>
             <h4>Visitantes EUA</h4>
             <p>{/* Hover Effect */}</p>
             {/* <span className="link-text">
@@ -64,7 +64,7 @@ export default function Home() {
             </span> */}
           </a>
           <a href="#" className="data-card">
-            <h3 className="visitorsBR">12,000</h3>
+            <h3 className="visitorsBR"></h3>
             <h4>Visitantes BR</h4>
             <p>
               {/* 

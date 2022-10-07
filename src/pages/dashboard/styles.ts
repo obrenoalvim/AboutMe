@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
+
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
   * {
     box-sizing: border-box;
   }
@@ -51,6 +53,7 @@ export const Div = styled.div`
     margin: 0 0 1.777777778em;
     transition: color 0.45s ease;
   }
+
   .data-card p {
     opacity: 0;
     color: #ffffff;
@@ -60,6 +63,7 @@ export const Div = styled.div`
     transform: translateY(-1em);
     transition: opacity 0.45s ease, transform 0.5s ease;
   }
+
   .data-card .link-text {
     display: block;
     color: #753bbd;

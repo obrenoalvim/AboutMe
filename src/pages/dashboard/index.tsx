@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-import { Div } from './style'
+import { Div } from './styles'
 
 export default function Home() {
   useEffect(() => {

@@ -115,14 +115,6 @@ export default function Skills(props: SkillsProps) {
             </li>
             <li>
               <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-                title="Python"
-                alt="Logo Python"
-              />
-              <span className="title">Python</span>
-            </li>
-            <li>
-              <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/laravel-colored.svg"
                 title="Laravel"
                 alt="Logo Laravel"
@@ -308,14 +300,6 @@ export default function Skills(props: SkillsProps) {
                 alt="Logo NodeJS"
               />
               <span className="title">Node</span>
-            </li>
-            <li>
-              <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-                title="Python"
-                alt="Logo Python"
-              />
-              <span className="title">Python</span>
             </li>
             <li>
               <img

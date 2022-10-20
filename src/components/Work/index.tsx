@@ -18,6 +18,61 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
+              <img src={`img/customcard.png`} />
+            </div>
+            <div className="span">
+              <div className="title">
+                <span>Card Customizável</span>
+              </div>
+              <div className="status">
+                <span>Produção</span>
+              </div>
+              <div className="tech">
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  title="React"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  title="TypeScript"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  title="HTML5"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  title="CSS3"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
+                />
+              </div>
+              <div className="description">
+                <span>
+                  Um card customizável que pode ser usado em qualquer projeto.
+                </span>
+              </div>
+              <div className="link">
+                <a
+                  href="https://github.com/brenoalvim/LearningUseState"
+                  target={`_blank`}
+                >
+                  <img src="svg/github-brands.svg" />
+                </a>
+                <a href="https://customcardui.vercel.app" target={`_blank`}>
+                  <img src="svg/share-solid.svg" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="image">
               <img src={`img/FrontGit.jpeg`} />
             </div>
             <div className="span">
@@ -155,6 +210,62 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
+              <img src={`img/customcard.png`} />
+            </div>
+            <div className="span">
+              <div className="title">
+                <span>Custom Card UI</span>
+              </div>
+              <div className="status">
+                <span>Production</span>
+              </div>
+              <div className="tech">
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  title="Next"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  title="React"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  title="TypeScript"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  title="HTML5"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  title="CSS3"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  title="Figma"
+                />
+              </div>
+              <div className="description">
+                <span>
+                  Small project for learning the react hook, useState with
+                  Next.js
+                </span>
+              </div>
+              <div className="link">
+                <a
+                  href="https://github.com/brenoalvim/LearningUseState"
+                  target={`_blank`}
+                >
+                  <img src="svg/github-brands.svg" />
+                </a>
+                <a href="https://customcardui.vercel.app" target={`_blank`}>
+                  <img src="svg/share-solid.svg" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="image">
               <img src={`img/FrontGit.jpeg`} />
             </div>
             <div className="span">
@@ -263,6 +374,7 @@ export default function Work(props: WorkProps) {
               </div>
             </div>
           </div>
+
           <div className="more-work pattern">
             <img
               src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}

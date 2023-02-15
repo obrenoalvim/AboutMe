@@ -377,15 +377,15 @@ export default function Work(props: WorkProps) {
 
           <div className="more-work pattern">
             <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
               alt=""
             />
             <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
               alt=""
             />
             <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=brenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
               alt=""
             />
           </div>

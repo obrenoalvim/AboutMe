@@ -19,7 +19,7 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/customcard.png`} />
+              <img src={`img/customcard.png`} alt="print do projeto"/>
             </div>
             <div className="span">
               <div className="title">
@@ -74,7 +74,7 @@ export default function Work(props: WorkProps) {
           </div>
           <div className="card">
             <div className="image">
-              <img src={`img/FrontGit.jpeg`} />
+              <img src={`img/FrontGit.jpeg`} alt="print do projeto"/>
             </div>
             <div className="span">
               <div className="title">
@@ -219,7 +219,7 @@ export default function Work(props: WorkProps) {
         <div className="projects">
           <div className="card">
             <div className="image">
-              <img src={`img/customcard.png`} />
+              <img src={`img/customcard.png`} alt="print from project"/>
             </div>
             <div className="span">
               <div className="title">
@@ -275,7 +275,7 @@ export default function Work(props: WorkProps) {
           </div>
           <div className="card">
             <div className="image">
-              <img src={`img/FrontGit.jpeg`} />
+              <img src={`img/FrontGit.jpeg`} alt="print from project"/>
             </div>
             <div className="span">
               <div className="title">
@@ -334,7 +334,7 @@ export default function Work(props: WorkProps) {
             </div>
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <div className="image">
               <img src={`img/bestowblood.png`} />
             </div>
@@ -382,7 +382,7 @@ export default function Work(props: WorkProps) {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="more-work pattern">
             <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>

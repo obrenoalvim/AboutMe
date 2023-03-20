@@ -30,7 +30,7 @@ export default function Aboutme(props: AboutmeProps) {
           </a>
         </div>
         <div className="avatar">
-          <img src="https://avatars.githubusercontent.com/u/39434668?v=4" />
+          <img src="https://avatars.githubusercontent.com/u/39434668?v=4" alt='avatar from github' />
         </div>
       </AboutmeContainer>
     )
@@ -57,7 +57,7 @@ export default function Aboutme(props: AboutmeProps) {
           </a>
         </div>
         <div className="avatar">
-          <img src="https://avatars.githubusercontent.com/u/39434668?v=4" />
+          <img src="https://avatars.githubusercontent.com/u/39434668?v=4" alt="avatar from github" />
         </div>
       </AboutmeContainer>
     )

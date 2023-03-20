@@ -194,26 +194,32 @@ export default function Work(props: WorkProps) {
               <div className="tech">
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  alt='logo Next'
                   title="Next"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  alt='logo React'
                   title="React"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  alt='logo TypeScript'
                   title="TypeScript"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  alt='logo HTML5'
                   title="HTML5"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  alt='logo CSS3'
                   title="CSS3"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  alt='logo Figma'
                   title="Figma"
                 />
               </div>
@@ -228,10 +234,10 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/obrenoalvim/LearningUseState"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" />
+                  <img src="svg/github-brands.svg" alt='logo github'/>
                 </a>
                 <a href="https://customcardui.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" />
+                  <img src="svg/share-solid.svg" alt='image share'/>
                 </a>
               </div>
             </div>

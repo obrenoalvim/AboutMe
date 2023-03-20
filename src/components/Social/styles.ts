@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Social = styled.div`
+export const Social = styled.section`
   body {
     margin: 0;
     padding: 0;

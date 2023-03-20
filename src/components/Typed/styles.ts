@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const TypedContainer = styled.div`
+export const TypedContainer = styled.section`
   @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
   * {

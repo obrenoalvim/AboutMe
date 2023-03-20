@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HomepagePattern = styled.div`
+export const HomepagePattern = styled.section`
   @import url('https://rsms.me/inter/inter.css');
   display: flex;
   justify-content: space-around;

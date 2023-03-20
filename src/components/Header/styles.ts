@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HeaderNav = styled.div`
+export const HeaderNav = styled.header`
   @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
 
   * {

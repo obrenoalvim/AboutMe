@@ -25,7 +25,7 @@ export default function Aboutme(props: AboutmeProps) {
             progredir e aprender rapidamente, então sempre procuro passar meu
             conhecimento, ensinando o maior número de pessoas possível!
           </p>
-          <a href="#Skills">
+          <a href="#Skills" title='Ir até a sessão de habilidade'>
             <button>Habilidades</button>
           </a>
         </div>
@@ -52,7 +52,7 @@ export default function Aboutme(props: AboutmeProps) {
             so I always try to pass my knowledge on, teaching as many people as
             possible!
           </p>
-          <a href="#Skills">
+          <a href="#Skills" title='Go to session skills'>
             <button>My Skills</button>
           </a>
         </div>

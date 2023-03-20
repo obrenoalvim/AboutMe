@@ -22,7 +22,7 @@ export default function Aboutme(props: FooterProps) {
         </div>
         <div className="hr"></div>
         <div className="button">
-          <a href="mailto:brenoalvim.dev@gmail.com">
+          <a href="mailto:brenoalvim.dev@gmail.com" title='Enviar email!'>
             <button>Contrate-me</button>
           </a>
         </div>
@@ -45,7 +45,7 @@ export default function Aboutme(props: FooterProps) {
         </div>
         <div className="hr"></div>
         <div className="button">
-          <a href="mailto:brenoalvim.dev@gmail.com">
+          <a href="mailto:brenoalvim.dev@gmail.com" title='Send Email'>
             <button>Hire me</button>
           </a>
         </div>

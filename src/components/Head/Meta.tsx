@@ -16,7 +16,7 @@ export default function Meta() {
 
         <meta name="creator" content="Breno Alvim" />
 
-        <meta name="description" content="Next React Pattern with TypeScript" />
+        <meta name="description" content="Breno Alvim, Software Developer" />
 
         <meta property="og:type" content="website" />
       </Head>

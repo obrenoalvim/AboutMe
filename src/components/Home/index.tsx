@@ -26,7 +26,7 @@ export default function Homepage(props: HomepageProps) {
           <div className="hr"></div>
           <p>Olá, Mundo! Conheça um pouco da minha história!</p>
           <div className="hr"></div>
-          <a href="#About">
+          <a href="#About" title='sobre mim'>
             <button>Sobre mim </button>
           </a>
         </div>
@@ -54,7 +54,7 @@ export default function Homepage(props: HomepageProps) {
           <div className="hr"></div>
           <p>Hello, World! Know some of my history!</p>
           <div className="hr"></div>
-          <a href="#About">
+          <a href="#About" title='Go to about session'>
             <button>About Me</button>
           </a>
         </div>

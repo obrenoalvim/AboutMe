@@ -97,14 +97,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">BootStrap</span>
             </li>
-            {/* <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
-              title="PHP"
-              alt="Logo PHP"
-            />
-            <span className="title">PHP</span>
-          </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
@@ -129,14 +121,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">MySql</span>
             </li>
-            {/* <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
-              title="PostgreSQL"
-              alt="Logo PostgreSQL"
-            />
-            <span className="title">PostgreSQL</span>
-          </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg"
@@ -145,22 +129,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">Firebase</span>
             </li>
-            {/* <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
-              title="MongoDB"
-              alt="Logo MongoDB"
-            />
-            <span className="title">MongoDB</span>
-          </li> */}
-            {/* <li>
-            <img
-              src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg"
-              title="Heroku"
-              alt="Logo Heroku"
-            />
-            <span className="title">Heroku</span>
-          </li> */}
             <li>
               <img
                 src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png"
@@ -169,14 +137,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">Photoshop</span>
             </li>
-            {/* <li>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png"
-              title="Adobe Illustrator"
-              alt="Logo Adobe Illustrator"
-            />
-            <span className="title">Illustrator</span>
-          </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
@@ -188,7 +148,7 @@ export default function Skills(props: SkillsProps) {
           </ol>
         </div>
         <div className="button">
-          <a href="#Work">
+          <a href="#Work" title='Ir para sessão de trabalho'>
             <button>Trabalho</button>
           </a>
         </div>
@@ -285,14 +245,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">BootStrap</span>
             </li>
-            {/* <li>
-              <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
-                title="PHP"
-                alt="Logo PHP"
-              />
-              <span className="title">PHP</span>
-            </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
@@ -317,14 +269,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">MySql</span>
             </li>
-            {/* <li>
-              <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
-                title="PostgreSQL"
-                alt="Logo PostgreSQL"
-              />
-              <span className="title">PostgreSQL</span>
-            </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg"
@@ -333,22 +277,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">Firebase</span>
             </li>
-            {/* <li>
-              <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
-                title="MongoDB"
-                alt="Logo MongoDB"
-              />
-              <span className="title">MongoDB</span>
-            </li> */}
-            {/* <li>
-              <img
-                src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg"
-                title="Heroku"
-                alt="Logo Heroku"
-              />
-              <span className="title">Heroku</span>
-            </li> */}
             <li>
               <img
                 src="https://seeklogo.com/images/A/adobe-photoshop-logo-7B88D7B5AA-seeklogo.com.png"
@@ -357,14 +285,6 @@ export default function Skills(props: SkillsProps) {
               />
               <span className="title">Photoshop</span>
             </li>
-            {/* <li>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png"
-                title="Adobe Illustrator"
-                alt="Logo Adobe Illustrator"
-              />
-              <span className="title">Illustrator</span>
-            </li> */}
             <li>
               <img
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
@@ -376,7 +296,7 @@ export default function Skills(props: SkillsProps) {
           </ol>
         </div>
         <div className="button">
-          <a href="#Work">
+          <a href="#Work" title='Go to work session'>
             <button>My Work</button>
           </a>
         </div>

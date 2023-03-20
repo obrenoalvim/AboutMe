@@ -12,7 +12,7 @@ export default function Header(props: HeaderProps) {
           <nav>
             <input id="nav-toggle" type="checkbox" />
             <div className="logo span-logo">
-              <a href="#Home">
+              <a href="#Home" title='Ir para o início do site'>
                 <span>
                   {`<`}breno.<strong>dev</strong>
                   {`/>`}
@@ -21,22 +21,22 @@ export default function Header(props: HeaderProps) {
             </div>
             <ul className="links">
               <li>
-                <a href="#Home">Início</a>
+                <a href="#Home" title='Ir para o início do site'>Início</a>
               </li>
               <li>
-                <a href="#About">Sobre</a>
+                <a href="#About" title='Ir para a sessão Sobre'>Sobre</a>
               </li>
               <li>
-                <a href="#Skills">Habilidades</a>
+                <a href="#Skills" title='Ir para a sessão habilidades'>Habilidades</a>
               </li>
               <li>
-                <a href="#Work">Trabalho</a>
+                <a href="#Work" title='Ir para a sessão trabalho'>Trabalho</a>
               </li>
               <li>
-                <a href="#Footer">Contatos</a>
+                <a href="#Footer" title='Ir para a sessão contatos'>Contatos</a>
               </li>
               <li>
-                <a href="/">
+                <a href="/" title='English version'>
                   <img src="icon/eua.png"  />
                 </a>
               </li>
@@ -57,7 +57,7 @@ export default function Header(props: HeaderProps) {
           <nav>
             <input id="nav-toggle" type="checkbox" />
             <div className="logo span-logo">
-              <a href="#Home">
+              <a href="#Home" title='Go to homepage'>
                 <span>
                   {`<`}breno.<strong>dev</strong>
                   {`/>`}
@@ -66,22 +66,22 @@ export default function Header(props: HeaderProps) {
             </div>
             <ul className="links">
               <li>
-                <a href="#Home">Home</a>
+                <a href="#Home" title='Go to homepage'>Home</a>
               </li>
               <li>
-                <a href="#About">About</a>
+                <a href="#About" title='Go to about session'>About</a>
               </li>
               <li>
-                <a href="#Skills">Skills</a>
+                <a href="#Skills" title='Go to skills session'>Skills</a>
               </li>
               <li>
-                <a href="#Work">Work</a>
+                <a href="#Work" title='Go to work session'>Work</a>
               </li>
               <li>
-                <a href="#Footer">Contact</a>
+                <a href="#Footer" title='Go to contact session'>Contact</a>
               </li>
               <li>
-                <a href="/Br">
+                <a href="/Br" title='Versão em português'>
                   <img src="icon/br.png"  />
                 </a>
               </li>

@@ -31,26 +31,32 @@ export default function Work(props: WorkProps) {
               <div className="tech">
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  alt='Logo Next'
                   title="Next"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  alt='Logo React'
                   title="React"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  alt='Logo TypeScript'
                   title="TypeScript"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  alt='Logo HTML5'
                   title="HTML5"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  alt='Logo CSS3'
                   title="CSS3"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  alt='Logo Figma'
                   title="Figma"
                 />
               </div>
@@ -64,10 +70,10 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/obrenoalvim/CustomCard"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" />
+                  <img src="svg/github-brands.svg" alt='image Github'/>
                 </a>
                 <a href="https://customcardui.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" />
+                  <img src="svg/share-solid.svg" alt='image share'/>
                 </a>
               </div>
             </div>
@@ -86,30 +92,37 @@ export default function Work(props: WorkProps) {
               <div className="tech">
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  alt='Logo Next'
                   title="Next"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  alt='Logo React'
                   title="React"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  alt='Logo TypeScript'
                   title="TypeScript"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                  alt='Logo Bootstrap'
                   title="Bootstrap"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  alt='Logo HTML5'
                   title="HTML5"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  alt='Logo CSS3'
                   title="CSS3"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  alt='Logo Figma'
                   title="Figma"
                 />
               </div>
@@ -124,82 +137,32 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/obrenoalvim/GitStats"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" />
+                  <img src="svg/github-brands.svg" alt='image github'/>
                 </a>
                 <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" />
+                  <img src="svg/share-solid.svg" alt='image share' />
                 </a>
               </div>
             </div>
           </div>
 
-          {/* <div className="card">
-            <div className="image">
-              <img src={`img/bestowblood.png`} />
-            </div>
-            <div className="span">
-              <div className="title">
-                <span>Grant Me</span>
-              </div>
-              <div className="status">
-                <span>Em Desenvolvimento</span>
-              </div>
-              <div className="tech">
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
-                  title="Next"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
-                  title="React"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
-                  title="TypeScript"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-                  title="Bootstrap"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
-                  title="Figma"
-                />
-              </div>
-              <div className="description">
-                <span>
-                  Sistema para conectar pessoas que precisam de doação de sangue
-                  com seus respectivos doadores.
-                </span>
-              </div>
-              <div className="link">
-                <a
-                  href="https://github.com/obrenoalvim/GrantMe"
-                  target={`_blank`}
-                >
-                  <img src="svg/github-brands.svg" />
-                </a>
-              </div>
-            </div>
-          </div> */}
-
           <div className="more-work pattern">
             <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card from github"
               />
             </a>
             <a href="https://github.com/obrenoalvim/ValidCpfGenerator" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card from github"
               />
             </a>
             <a href="https://github.com/obrenoalvim/CanteenApp" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card from github"
               />
             </a>
           </div>
@@ -287,30 +250,37 @@ export default function Work(props: WorkProps) {
               <div className="tech">
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
+                  alt='Logo Next'
                   title="Next"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                  alt='Logo React'
                   title="React"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
+                  alt='Logo TypeScript'
                   title="TypeScript"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                  alt='Logo Bootstrap'
                   title="Bootstrap"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                  alt='Logo HTML5'
                   title="HTML5"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                  alt='Logo CSS3'
                   title="CSS3"
                 />
                 <img
                   src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                  alt='Logo Figma'
                   title="Figma"
                 />
               </div>
@@ -325,82 +295,31 @@ export default function Work(props: WorkProps) {
                   href="https://github.com/obrenoalvim/GitStats"
                   target={`_blank`}
                 >
-                  <img src="svg/github-brands.svg" />
+                  <img src="svg/github-brands.svg" alt='logo github'/>
                 </a>
                 <a href="https://statsgit.vercel.app" target={`_blank`}>
-                  <img src="svg/share-solid.svg" />
+                  <img src="svg/share-solid.svg" alt='image share'/>
                 </a>
               </div>
             </div>
           </div>
-
-          {/* <div className="card">
-            <div className="image">
-              <img src={`img/bestowblood.png`} />
-            </div>
-            <div className="span">
-              <div className="title">
-                <span>Grant Me</span>
-              </div>
-              <div className="status">
-                <span>Development</span>
-              </div>
-              <div className="tech">
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg"
-                  title="Next"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
-                  title="React"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg"
-                  title="TypeScript"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
-                  title="Bootstrap"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
-                  title="Figma"
-                />
-              </div>
-              <div className="description">
-                <span>
-                  System to connect people in need of blood donation with their
-                  compatible donors
-                </span>
-              </div>
-              <div className="link">
-                <a
-                  href="https://github.com/obrenoalvim/GrantMe"
-                  target={`_blank`}
-                >
-                  <img src="svg/github-brands.svg" />
-                </a>
-              </div>
-            </div>
-          </div> */}
-
           <div className="more-work pattern">
             <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card project from github"
               />
             </a>
             <a href="https://github.com/obrenoalvim/ValidCpfGenerator" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card project from github"
               />
             </a>
             <a href="https://github.com/obrenoalvim/CanteenApp" title='redirect to Github'> 
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-                alt=""
+                alt="card project from github"
               />
             </a>
           </div>

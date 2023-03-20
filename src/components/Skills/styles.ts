@@ -57,6 +57,7 @@ export const SkillsContainer = styled.section`
     fill: var(--grey-color);
     width: 90px;
     height: 90px;
+    object-fit: contain;
   }
 
   .svg ol li .title {

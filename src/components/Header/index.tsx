@@ -37,7 +37,7 @@ export default function Header(props: HeaderProps) {
               </li>
               <li>
                 <a href="/" title='English version'>
-                  <img src="icon/eua.png"  />
+                  <img src="icon/eua.png" alt="Bandeira do país referente a linguagem do site" />
                 </a>
               </li>
             </ul>
@@ -82,7 +82,7 @@ export default function Header(props: HeaderProps) {
               </li>
               <li>
                 <a href="/Br" title='Versão em português'>
-                  <img src="icon/br.png"  />
+                  <img src="icon/br.png" alt='Country language' />
                 </a>
               </li>
             </ul>

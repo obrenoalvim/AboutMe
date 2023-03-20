@@ -30,6 +30,7 @@ export default function Home() {
   countVisitors()
   return (
     <>
+       <html lang="en">
       <Meta />
       <Link />
       <Seo
@@ -51,6 +52,7 @@ export default function Home() {
       <Work language="EUA" />
       <div className="hr" id="Footer" />
       <Footer language="EUA" />
+      </html>
     </>
   )
 }

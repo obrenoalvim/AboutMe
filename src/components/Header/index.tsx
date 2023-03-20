@@ -10,6 +10,7 @@ export default function Header(props: HeaderProps) {
       <HeaderNav>
         <header>
           <nav>
+            <label htmlFor="nav-toggle"></label>
             <input id="nav-toggle" type="checkbox" />
             <div className="logo span-logo">
               <a href="#Home" title='Ir para o início do site'>
@@ -55,6 +56,7 @@ export default function Header(props: HeaderProps) {
       <HeaderNav>
         <header>
           <nav>
+            <label htmlFor="nav-toggle"></label>
             <input id="nav-toggle" type="checkbox" />
             <div className="logo span-logo">
               <a href="#Home" title='Go to homepage'>

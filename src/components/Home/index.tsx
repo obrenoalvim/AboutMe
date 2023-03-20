@@ -49,7 +49,7 @@ export default function Homepage(props: HomepageProps) {
 
           <div className="hr"></div> 
           <img
-            src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=2600&color=cbd5e1&width=375&height=60&lines=A+Web+Developer;A+Designer;A+Full-Stack+Developer;A+Software+Developer;A+Student;A+UX+Designer`}
+            src={`https://readme-typing-svg.herokuapp.com?font=Inter&size=35&duration=2600&color=cbd5e1&width=375&height=60&lines=Web+Developer;Designer;Full-Stack+Developer;Software+Developer;Student;UX+Designer`}
           />
           <div className="hr"></div>
           <p>Hello, World! Know some of my history!</p>

@@ -1,4 +1,5 @@
 import { WorkContainer } from './styles'
+import Link from 'next/link'
 
 interface WorkProps {
   language: string
@@ -60,7 +61,7 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/LearningUseState"
+                  href="https://github.com/obrenoalvim/CustomCard"
                   target={`_blank`}
                 >
                   <img src="svg/github-brands.svg" />
@@ -120,7 +121,7 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/GitStats"
+                  href="https://github.com/obrenoalvim/GitStats"
                   target={`_blank`}
                 >
                   <img src="svg/github-brands.svg" />
@@ -131,7 +132,8 @@ export default function Work(props: WorkProps) {
               </div>
             </div>
           </div>
-          <div className="card">
+
+          {/* <div className="card">
             <div className="image">
               <img src={`img/bestowblood.png`} />
             </div>
@@ -179,20 +181,27 @@ export default function Work(props: WorkProps) {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
+
           <div className="more-work pattern">
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
+            <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
+            <a href="https://github.com/obrenoalvim/ValidCpfGenerator" title='redirect to Github'>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
+            <a href="https://github.com/obrenoalvim/CanteenApp" title='redirect to Github'>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </WorkContainer>
@@ -253,7 +262,7 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/LearningUseState"
+                  href="https://github.com/obrenoalvim/LearningUseState"
                   target={`_blank`}
                 >
                   <img src="svg/github-brands.svg" />
@@ -313,7 +322,7 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/GitStats"
+                  href="https://github.com/obrenoalvim/GitStats"
                   target={`_blank`}
                 >
                   <img src="svg/github-brands.svg" />
@@ -366,7 +375,7 @@ export default function Work(props: WorkProps) {
               </div>
               <div className="link">
                 <a
-                  href="https://github.com/brenoalvim/GrantMe"
+                  href="https://github.com/obrenoalvim/GrantMe"
                   target={`_blank`}
                 >
                   <img src="svg/github-brands.svg" />
@@ -376,18 +385,24 @@ export default function Work(props: WorkProps) {
           </div>
 
           <div className="more-work pattern">
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
-            <img
-              src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
-              alt=""
-            />
+            <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
+            <a href="https://github.com/obrenoalvim/ValidCpfGenerator" title='redirect to Github'>
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=ValidCpfGenerator&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
+            <a href="https://github.com/obrenoalvim/CanteenApp" title='redirect to Github'> 
+              <img
+                src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=CanteenApp&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
+                alt=""
+              />
+            </a>
           </div>
         </div>
       </WorkContainer>

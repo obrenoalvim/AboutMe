@@ -66,7 +66,7 @@ export const HeaderNav = styled.header`
     list-style: none;
   }
 
-  nav .links li a img {
+  nav .links li a img, nav .links li img {
     width: 30px;
   }
 

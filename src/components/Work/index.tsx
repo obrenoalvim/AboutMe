@@ -146,7 +146,7 @@ export default function Work(props: WorkProps) {
             </div>
           </div>
 
-          <div className="more-work pattern">
+          {/* <div className="more-work pattern">
             <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
@@ -165,7 +165,7 @@ export default function Work(props: WorkProps) {
                 alt="card from github"
               />
             </a>
-          </div>
+          </div> */}
         </div>
       </WorkContainer>
     )
@@ -309,7 +309,7 @@ export default function Work(props: WorkProps) {
               </div>
             </div>
           </div>
-          <div className="more-work pattern">
+          {/* <div className="more-work pattern">
             <a href="https://github.com/obrenoalvim/AboutMe" title='redirect to Github'>
               <img
                 src={`https://github-readme-stats.vercel.app/api/pin?username=obrenoalvim&repo=AboutMe&hide_border=false&theme=react&show_owner=true&cache_seconds=86400&bg_color=#282833`}
@@ -328,7 +328,7 @@ export default function Work(props: WorkProps) {
                 alt="card project from github"
               />
             </a>
-          </div>
+          </div> */}
         </div>
       </WorkContainer>
     )

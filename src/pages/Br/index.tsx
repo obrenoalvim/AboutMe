@@ -21,13 +21,13 @@ import GlobalStyle from '../global'
 import Seo from '../../components/Head/Seo'
 
 export default function Home() {
-  function countVisitors() {
-    fetch(
-      `https://api.countapi.xyz/hit/brenoalvimvercelbr/51176c51-44c2-40fa-a2fe-175d043f4bb1`
-    )
-  }
+  // function countVisitors() {
+  //   fetch(
+  //     `https://api.countapi.xyz/hit/brenoalvimvercelbr/51176c51-44c2-40fa-a2fe-175d043f4bb1`
+  //   )
+  // }
 
-  countVisitors()
+  // countVisitors()
   return (
     <>
       <Meta />

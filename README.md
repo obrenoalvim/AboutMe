@@ -12,15 +12,3 @@ Landing page to show my development in developer career.
 ~~~
 Landing page para mostrar meu desenvolvimento na carreira de desenvolvedor.
 ~~~
-
-Requirements / Requisitos
-
-Node ^16.16
-
-~~~
-npm i
-~~~
-
-~~~
-npm run dev
-~~~

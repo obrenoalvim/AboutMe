@@ -14,6 +14,15 @@ export default function HomePage() {
           Developer
         </h1>
         <div className="icons">
+          <Link href={`https://tabnews.com.br/obrenoalvim`}>
+            <Image
+              src="/svg/tabnews.svg"
+              width={50}
+              height={50}
+              alt="TESTE"
+              className="icon"
+            />
+          </Link>
           <Link href={`https://github.com/obrenoalvim`}>
             <Image
               src="/svg/github.svg"
@@ -24,7 +33,7 @@ export default function HomePage() {
             />
           </Link>
           <Link href={`https://linkedin.com/in/brenoalvim`}>
-            <Image
+            <img
               src="/svg/linkedin.svg"
               width={50}
               height={50}

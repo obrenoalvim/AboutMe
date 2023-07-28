@@ -46,7 +46,7 @@ export const Main = styled.div`
   }
 
   .icons {
-    width: 56.5%;
+    width: 57.8%;
     text-align: right;
     color: #5ae4a8;
     font-size: 2.25rem;
@@ -55,6 +55,7 @@ export const Main = styled.div`
     line-height: normal;
     display: flex;
     justify-content: right;
+    align-items: center;
     gap: 15px;
     color: #5ae4a8;
   }

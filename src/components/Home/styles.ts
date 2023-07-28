@@ -1,180 +1,61 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const HomepagePattern = styled.section`
-  @import url('https://rsms.me/inter/inter.css');
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100%;
+export const Container = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #12134b 0%, #003a45 100%);
+`;
+
+export const Main = styled.div`
   width: 100%;
-  min-height: 100vh;
-  background-color: var(--brand-color);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
 
-  .span,
-  .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 49%;
-    min-width: 380px;
-    height: 100%;
-    margin-top: 11.9vh;
-  }
-
-  .span {
-    display: flex;
-    justify-content: start;
+  .AboutMe {
+    width: 56.5%;
     text-align: left;
+    color: #5ae4a8;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
   }
 
-  .color {
+  span {
+    width: 57%;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  h1 {
+    color: #f2f2f2;
+    font-size: 15.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -60px;
+  }
+
+  .icons {
+    width: 56.5%;
+    text-align: right;
+    color: #5ae4a8;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
     color: #5ae4a8;
   }
-
-  .span button {
-    margin-left: 250px;
-    background-color: #5ae4a8;
-    border: 0px;
-    border-radius: 5px;
-    color: var(--brand-color);
-    font-weight: bold;
-    width: 110px;
-    height: 40px;
-    font-size: large;
-    transition: 0.5s all;
-  }
-
-  .span button:hover {
-    transition: 0.5s all;
-    background-color: var(--brand-color);
-    color: #5ae4a8;
-    box-shadow: 0px 0px 10px #5ae4a8;
-  }
-
-  .span p,
-  .span span,
-  .span img {
-    padding-left: 250px;
-  }
-
-  .span p {
-    font-size: 1.8rem;
-    color: var(--mid-color);
-    font-family: 'inter', sans-serif;
-  }
-
-  .span span {
-    font-size: 3.9rem;
-    color: var(--light-color);
-    font-family: 'inter', sans-serif;
-  }
-
-  .span img {
-    width: 375px;
-  }
-
-  .hr {
-    width: 100%;
-    height: 1px;
-    background-color: #00000000;
-  }
-
-  .image img {
-    width: 60%;
-    height: 100%;
-  }
-
-  @media (max-width: 1200px) {
-    .span p,
-    .span span,
-    .span img {
-      padding-left: 150px;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    .span p,
-    .span span,
-    .span img,
-    .span button {
-      padding-left: 100px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .span p,
-    .span span,
-    .span img,
-    .span button {
-      padding-left: 50px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .span {
-      display: flex;
-      justify-content: center;
-    }
-
-    .span p {
-      font-size: 1.3rem;
-      color: var(--light-color);
-      font-family: 'inter', sans-serif;
-      padding-left: 0px;
-    }
-
-    .span span {
-      font-size: 2.5rem;
-      color: var(--light-color);
-      font-family: 'inter', sans-serif;
-      padding-left: 0px;
-    }
-
-    .span img {
-      width: 200px;
-      padding-right: 82px;
-    }
-
-    .image img {
-      width: 370px;
-    }
-  }
-
-  @media (max-width: 1270px) {
-    .span span {
-      font-size: 2.5rem;
-    }
-
-    .span button {
-      margin-left: 150px;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    .span button {
-      margin-left: 100px;
-      padding-left: 0px;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .span button {
-      margin-left: 50px;
-      padding-left: 0px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .span button {
-      margin-left: 0px;
-    }
-  }
-  @media (max-width: 600px) {
-    .span button {
-      margin-left: 0px;
-      padding-left: 0px;
-    }
-  }
-`
+`;

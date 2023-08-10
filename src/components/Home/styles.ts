@@ -25,7 +25,6 @@ export const Main = styled.div`
     align-items: center;
     flex-wrap: wrap;
     object-fit: contain;
-    border: 1px solid red;
   }
 
   .AboutMe {
@@ -73,7 +72,8 @@ export const Main = styled.div`
   }
 
   @media (min-width: 1920px) {
-    .AboutMe {
+    .AboutMe,
+    .icons {
       font-size: 2.25rem;
     }
 
@@ -84,9 +84,53 @@ export const Main = styled.div`
     h1 {
       font-size: 15.625rem;
     }
+  }
 
-    .icons {
-      font-size: 2.25rem;
+  @media (max-width: 1600px) {
+    main {
+      gap: 10px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    h1 {
+      padding: 20px;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    h1 {
+      font-size: 8.5;
+    }
+    span {
+      font-size: 5rem;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      font-size: 8.5;
+    }
+    span {
+      font-size: 5rem;
+    }
+    .AboutMe {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .AboutMe {
+      font-size: 1.07rem;
+    }
+
+    h1{
+      font-size: 3rem;
+    }
+
+    span {
+      font-size: 2rem;
+      padding-bottom: 15px;
     }
   }
 `;
